@@ -1,7 +1,7 @@
 {
   "title": "Terms of Use & Privacy Policy",
-  "lastUpdated": "Last updated: January 2026",
-  "appDescription": "is an iOS application designed to help people who live alone signal their well-being through daily check-ins. If a user does not check in for two consecutive days, the app automatically sends an email alert on the third day to a designated emergency contact asking them to check on the user.",
+  "lastUpdated": "February 2026",
+  "appDescription": "is an iOS application designed to help players track scores for board games. Track scores for up to 8 players, view score history, and create custom games with your own scoring rules.",
   "agreeToTerms": "By using the app, you agree to the terms and practices described below.",
   "sections": {
     "overview": "Overview",
@@ -16,53 +16,42 @@
     "ccpa": "California Privacy Rights (CCPA)"
   },
   "overview": {
-    "para1": "{appName} is an iOS application designed to help people who live alone signal their well-being through daily check-ins. If a user does not check in for two consecutive days, the app automatically sends an email alert on the third day to a designated emergency contact asking them to check on the user.",
+    "para1": "{appName} is an iOS application designed to help players track scores for board games. Track scores for up to 8 players, view score history, and create custom games with your own scoring rules.",
     "para2": "By using the app, you agree to the terms and practices described below."
   },
   "termsOfUse": {
     "intendedUse": {
       "title": "2.1 Intended Use",
-      "para1": "{appName} is a wellness support tool, <strong>not an emergency service</strong>. It does not replace medical care, emergency responders, or welfare checks conducted by authorities.",
-      "para2": "Do not rely on this app for life-critical situations."
-    },
-    "automatedAlerts": {
-      "title": "2.2 Automated Alerts",
-      "para1": "If you miss checking in for two consecutive days, the app automatically sends an email on the third day to your chosen emergency contact.",
-      "para2": "You acknowledge and accept:",
-      "list": [
-        "Emails are sent automatically via our server, without human intervention",
-        "Email delivery is not guaranteed (depends on email providers, internet connectivity)",
-        "The app cannot confirm whether the recipient reads or acts on the message",
-        "False alarms may occur if you forget to check in"
-      ]
+      "para1": "{appName} is a score tracking tool designed for casual and competitive board game play. It helps keep track of scores during game sessions.",
+      "para2": "This app is intended for entertainment purposes only."
     },
     "accuracyOfInformation": {
-      "title": "2.3 Accuracy of Information",
-      "para1": "You are responsible for ensuring:",
+      "title": "2.2 Accuracy of Information",
+      "para1": "You are responsible for:",
       "list": [
-        "Your correct name (optional, but recommended)",
-        "A valid and monitored emergency contact email address"
+        "Entering correct player names",
+        "Accurately tracking scores during games",
+        "Keeping the app updated to ensure proper functionality"
       ],
-      "para2": "Incorrect or outdated information may prevent alerts from reaching the right person."
+      "para2": "The app provides tools to track scores, but the accuracy of game results depends on correct usage."
     },
     "noLiability": {
-      "title": "2.4 No Liability",
+      "title": "2.3 No Liability",
       "para1": "{appName} is provided \"as is\" without any warranties. The developer is not liable for:",
       "list": [
-        "Missed, delayed, or undelivered emails",
-        "Internet, device, or third-party service outages",
-        "Any action or inaction taken by emergency contacts",
-        "Consequences arising from reliance on this app"
+        "Disputes arising from score discrepancies",
+        "Game results being used for gambling or professional competitions",
+        "Any loss of data due to app deletion",
+        "Device or software issues"
       ]
     },
     "userResponsibility": {
-      "title": "2.5 User Responsibility",
+      "title": "2.4 User Responsibility",
       "para1": "You are responsible for:",
       "list": [
-        "Checking in daily to prevent alerts",
-        "Keeping emergency contact information up to date",
-        "Informing your emergency contact that they may receive automated alerts",
-        "Understanding that this is a supplemental tool, not a replacement for professional care"
+        "Using the app fairly and accurately",
+        "Backing up important game data if needed",
+        "Understanding the scoring rules of each game you play"
       ]
     }
   },
@@ -73,47 +62,33 @@
       "storedOnDevice": {
         "title": "Stored on Device (Local Storage)",
         "list": [
-          "Your name (optional)",
-          "Emergency contact email address",
-          "Check-in history (last 30 check-in dates)",
-          "Last check-in date and time",
-          "App language preference",
-          "Text/icon size preference",
-          "Onboarding completion status"
+          "Player names",
+          "Game names and custom game configurations",
+          "Score history for each game",
+          "App preferences (language, theme)"
         ]
       },
       "syncedToIcloud": {
         "title": "Synced to iCloud",
         "para1": "To allow data recovery when reinstalling the app or switching devices, the following data is automatically synced to your personal iCloud account using iCloud Key-Value Storage:",
         "list": [
-          "Your name (if provided)",
-          "Emergency contact email address",
-          "Last check-in date and time",
-          "Check-in history (last 30 days)",
-          "Consecutive missed days count (calculated value)",
-          "App preferences (language, text size)"
+          "Player names",
+          "Game configurations",
+          "Score history",
+          "App preferences"
         ]
       },
-      "syncedToCloudkit": {
-        "title": "Also Synced to CloudKit",
-        "para1": "As an additional backup mechanism, your data is also synced to your private CloudKit database:",
-        "list": [
-          "Device identifier (anonymous UUID, not linked to your Apple ID)",
-          "All data listed above in \"Synced to iCloud\"",
-          "Sync timestamp"
-        ],
-        "important": "**Important:** Both iCloud Key-Value Storage and CloudKit data are tied to your Apple ID. Only you can access this data across your devices. We do not have access to your iCloud or CloudKit data. Your data is stored in Apple's secure infrastructure."
+      "important": "**Important:** iCloud data is tied to your Apple ID. Only you can access this data across your devices. We do not have access to your iCloud data."
       }
     },
     "howDataIsUsed": {
       "title": "3.2 How Data Is Used",
       "para1": "Your data is used <strong>exclusively</strong> for:",
       "list": [
-        "Tracking your daily check-ins",
-        "Calculating consecutive missed days",
-        "Sending automated email alerts to your emergency contact when needed",
-        "Syncing data to your personal iCloud account for backup and recovery across devices",
-        "Personalizing app preferences (language, text size)"
+        "Tracking game scores",
+        "Saving game history",
+        "Syncing data to your personal iCloud account for backup",
+        "Personalizing app preferences"
       ],
       "weDoNot": "We do not:",
       "doNotList": [
@@ -121,155 +96,90 @@
         "Use your data for advertising",
         "Share your data except as described in this policy",
         "Track your location",
-        "Access other apps or data on your device",
-        "Access your iCloud data (it's encrypted and only accessible to you)"
+        "Access other apps or data on your device"
       ]
     },
-    "emailSending": {
-      "title": "3.3 Email Sending Service",
-      "para1": "Automated alert emails are sent via SendGrid, a third-party email service provider, through our backend server.",
-      "para2": "<strong>How it works:</strong>",
-      "howItWorks": [
-        "When the app detects you've missed 2+ consecutive days, it sends an escalation request to our server",
-        "Our server (hosted on Railway) processes the request and sends an email via SendGrid",
-        "The email is sent exclusively to your provided emergency contact"
-      ],
-      "para3": "<strong>Email contents:</strong>",
-      "list": [
-        "Your name (if provided)",
-        "Number of consecutive days missed",
-        "Instructions for the recipient on what to do",
-        "Automated \"DO NOT REPLY\" warnings",
-        "Sent from: safety@betweendays.app"
-      ],
-      "para4": "SendGrid processes the email content only for delivery purposes and does not use your data for other purposes."
-    },
     "pushNotifications": {
-      "title": "3.4 Push Notifications",
-      "para1": "The app may send push notifications to remind you to check in. These require your permission and can be managed in your device settings. No personal data is collected for this feature."
+      "title": "3.3 Push Notifications",
+      "para1": "The app may send push notifications for game reminders if enabled. These require your permission and can be managed in your device settings."
     },
     "dataStorageAndSecurity": {
-      "title": "3.5 Data Storage and Security",
+      "title": "3.4 Data Storage and Security",
       "localStorage": {
         "title": "Local Storage",
         "list": [
           "Data is stored securely on your device using iOS UserDefaults",
-          "Protected by your device's built-in security (passcode, Face ID, etc.)",
+          "Protected by your device's built-in security",
           "Automatically deleted when you uninstall the app"
         ]
       },
       "cloudStorage": {
-        "title": "iCloud Storage (Key-Value Storage & CloudKit)",
+        "title": "iCloud Storage",
         "list": [
-          "Data is stored in your personal iCloud account (operated by Apple)",
+          "Data is stored in your personal iCloud account",
           "Transmitted via encrypted connections",
-          "Protected by your Apple ID password and two-factor authentication",
-          "<strong>Persists even after deleting the app</strong> (to allow data recovery)",
-          "Accessible only from devices signed in with your Apple ID",
-          "Stored in Apple's secure data centers"
-        ]
-      },
-      "backendServer": {
-        "title": "Backend Server (Railway)",
-        "list": [
-          "Hosted on Railway's secure infrastructure",
-          "Does not store your personal data permanently",
-          "Only processes escalation email requests in real-time",
-          "Communicates with SendGrid via secure API for email delivery"
+          "Protected by your Apple ID password",
+          "Persists even after deleting the app"
         ]
       }
     },
     "dataRetention": {
-      "title": "3.6 Data Retention",
-      "para1": "Your data is stored in multiple places with different retention policies:",
+      "title": "3.5 Data Retention",
+      "para1": "Your data is stored locally on your device and optionally synced to iCloud.",
       "onYourDevice": {
         "title": "On Your Device",
         "list": [
           "Data remains until you uninstall the app",
-          "Uninstalling the app <strong>permanently deletes</strong> all local data"
+          "Uninstalling the app permanently deletes all local data"
         ]
       },
       "inIcloud": {
-        "title": "In iCloud (Key-Value Storage & CloudKit)",
+        "title": "In iCloud",
         "list": [
-          "Data <strong>persists even after deleting the app</strong>",
-          "This allows data recovery if you reinstall the app",
-          "Synchronized across all your devices signed in with the same Apple ID"
-        ]
-      },
-      "onRailwayServer": {
-        "title": "On Railway Server",
-        "list": [
-          "No permanent data storage",
-          "Escalation requests are processed in real-time and not retained"
+          "Data persists even after deleting the app",
+          "This allows data recovery if you reinstall the app"
         ]
       },
       "toPermanentlyDelete": {
         "title": "To permanently delete all data:",
         "steps": [
-          "Open the app",
-          "Go to Settings",
-          "Use the \"Reset All Data\" option",
-          "Then uninstall the app"
-        ],
-        "para1": "If you uninstall without resetting, data will remain in iCloud and will be restored if you reinstall the app with the same Apple ID.",
-        "para2": "<strong>Note:</strong> iCloud data is managed by Apple. Deleting data from our app removes it from iCloud Key-Value Storage and CloudKit, but Apple may retain backups according to their data retention policies."
+          "Uninstall the app from your device",
+          "If iCloud sync was enabled, data will remain in iCloud until manually deleted via iCloud settings"
+        ]
       }
     },
     "yourRightsAndControl": {
-      "title": "3.7 Your Rights and Control",
+      "title": "3.6 Your Rights and Control",
       "para1": "At any time, you can:",
       "list": [
-        "<strong>View</strong> your stored information in the Settings screen",
-        "<strong>Update</strong> your name or emergency contact email",
-        "<strong>Modify</strong> app preferences (language, text size)",
-        "<strong>Stop future alerts</strong> by removing the emergency contact email",
-        "<strong>Delete all data</strong> using the \"Reset All Data\" option in Settings",
-        "<strong>Request data deletion assistance</strong> by contacting support (see Section 8)"
+        "View your stored game data",
+        "Edit player names and scores",
+        "Delete individual games or all game history",
+        "Modify app preferences",
+        "Reset all data from the app"
       ]
     },
     "thirdPartyServices": {
-      "title": "3.8 Third-Party Services",
+      "title": "3.7 Third-Party Services",
       "para1": "{appName} uses the following third-party services:",
       "icloud": {
         "title": "iCloud (Apple)",
         "list": [
-          "Purpose: Cloud data storage and sync for backup and device-to-device sync",
-          "Data shared: App data syncs to your personal iCloud account via Key-Value Storage and CloudKit",
-          "Privacy policy: https://www.apple.com/legal/privacy/",
-          "Note: This is your own iCloud account - we do not have access to this data"
+          "Purpose: Cloud data storage and sync for backup",
+          "Data shared: App data syncs to your personal iCloud account",
+          "Privacy policy: https://www.apple.com/legal/privacy/"
         ]
       },
-      "railway": {
-        "title": "Railway",
-        "list": [
-          "Purpose: Backend server hosting for processing escalation email requests",
-          "Data shared: Email address, name, missed days count (only when escalation is triggered)",
-          "Data retention: No permanent storage - real-time processing only",
-          "Privacy policy: https://railway.app/legal/privacy"
-        ]
-      },
-      "sendgrid": {
-        "title": "SendGrid (Twilio)",
-        "list": [
-          "Purpose: Email delivery for alerts",
-          "Data shared: Emergency contact email, your name, alert message content",
-          "Privacy policy: https://www.twilio.com/legal/privacy"
-        ]
-      },
-      "para2": "These services are bound by their own privacy policies. We choose trusted providers with strong privacy practices and enterprise-grade security."
+      "para2": "These services are bound by their own privacy policies."
     },
     "dataSharingAndDisclosure": {
-      "title": "3.9 Data Sharing and Disclosure",
+      "title": "3.8 Data Sharing and Disclosure",
       "para1": "We do not sell or rent your data to third parties.",
       "para2": "We may only disclose your information:",
       "list": [
-        "To your designated emergency contact (as part of the alert email)",
-        "To third-party service providers (Railway, SendGrid) to the extent necessary to deliver email alerts",
-        "When required by legal process or statutory obligation",
+        "When required by legal process",
         "To protect rights, property, or safety"
-      ],
-      "para3": "<strong>Note:</strong> Your iCloud data is stored in your personal iCloud account and is not shared with us or third parties."
+      ]
     }
   },
   "childrensPrivacy": {
@@ -277,22 +187,19 @@
     "para2": "If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately so we can delete it."
   },
   "internationalUsers": {
-    "para1": "Your iCloud data is stored in Apple data centers, which may be located in different countries depending on your region and Apple ID settings. Our backend server (Railway) operates in various global regions. SendGrid's email service operates primarily in the United States.",
-    "para2": "By using the app, you consent to the processing of data as described in this policy. These countries may have different data protection laws than your country of residence.",
-    "chinaNote": "<strong>For users in China:</strong> iCloud data is stored in Apple's data centers in China, operated by GCBD (Guizhou on the Cloud Big Data), in accordance with Chinese data protection regulations."
+    "para1": "Your iCloud data is stored in Apple data centers, which may be located in different countries depending on your region and Apple ID settings.",
+    "para2": "By using the app, you consent to the processing of data as described in this policy."
   },
   "changesToPolicy": {
     "para1": "We may update these Terms of Use and Privacy Policy from time to time. Changes will be indicated by updating the \"Last updated\" date at the top of this page.",
-    "para2": "Your continued use of the app after changes constitutes acceptance of the updated terms.",
-    "para3": "If significant changes affect your privacy rights, we will provide notice within the app when possible."
+    "para2": "Your continued use of the app after changes constitutes acceptance of the updated terms."
   },
   "yourConsent": {
     "para1": "By downloading, installing, and using {appName}, you consent to:",
     "list": [
       "The collection and use of data as described in this policy",
-      "Sending automated alerts to your emergency contact via our backend server",
-      "Storing data in your personal iCloud account (Key-Value Storage and CloudKit)",
-      "The terms and limitations described in Section 2"
+      "Storing data in your personal iCloud account (if enabled)",
+      "The terms described in this document"
     ]
   },
   "contact": {
@@ -301,25 +208,19 @@
       "title": "{appName} Support",
       "email": "Email: "
     },
-    "para2": "For data deletion requests, you can delete all data directly from the app:",
-    "steps": [
-      "Open Settings",
-      "Scroll to the \"Data\" section",
-      "Tap \"Reset All Data\""
-    ],
-    "para3": "This will delete both local and iCloud data. We will respond to privacy inquiries within 30 days."
+    "para2": "We will respond to inquiries within 30 days."
   },
   "gdpr": {
     "para1": "If you are located in the European Economic Area (EEA), our legal basis for collecting and using your data is:",
     "list": [
-      "<strong>Consent:</strong> You provide explicit consent by setting up an emergency contact",
-      "<strong>Legitimate interest:</strong> Operating the core functionality of the app (check-in tracking)"
+      "<strong>Consent:</strong> You provide explicit consent by using the app",
+      "<strong>Legitimate interest:</strong> Operating the core functionality of the app"
     ],
     "para2": "You have the right to:",
     "rights": [
       "Access your personal data",
       "Correct inaccurate data",
-      "Delete your data (\"right to be forgotten\")",
+      "Delete your data",
       "Restrict or object to processing",
       "Data portability",
       "Withdraw consent at any time"
@@ -329,9 +230,9 @@
   "ccpa": {
     "para1": "If you are a California resident, you have the right to:",
     "list": [
-      "Know what personal information we collect and how we use it",
+      "Know what personal information we collect",
       "Request deletion of your personal information",
-      "Opt-out of the sale of personal information (we do not sell your data)",
+      "Opt-out of the sale of personal information",
       "Exercise your privacy rights without discrimination"
     ],
     "para3": "To exercise these rights, contact us at avdev2024@gmail.com."

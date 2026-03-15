@@ -1,62 +1,62 @@
 {
-  "appName": "Between Days",
+  "appName": "Skora: Tabletop",
   "navigation": {
     "features": "Features",
     "contact": "Contact",
     "termsPrivacy": "Terms & Privacy"
   },
   "hero": {
-    "title": "Peace of Mind",
-    "subtitle": "For Those Who Live Alone",
-    "description": "A simple, reliable app that helps friends and family monitor each other's well-being through daily check-ins. If you miss check-ins for two consecutive days, your emergency contact is automatically notified.",
+    "title": "Track Your Games",
+    "subtitle": "The Ultimate Board Game Score Keeper",
+    "description": "Keep track of scores for all your favorite board games. Simple, elegant, and perfect for game nights with friends and family. Never lose track of who's winning again.",
     "downloadButton": "Download on App Store",
     "screenshotPlaceholder": "App Screenshot Placeholder"
   },
   "features": {
     "title": "Everything You Need",
-    "subtitle": "Simple, reliable features designed for peace of mind",
-    "dailyCheckIns": {
-      "title": "Daily Check-Ins",
-      "description": "Simply open the app each day to confirm you're safe. Receive push notifications to remind you to check in. Quick, easy, and non-intrusive."
+    "subtitle": "Powerful features designed for board game enthusiasts",
+    "multiplayer": {
+      "title": "Multiplayer Support",
+      "description": "Track up to 8 players simultaneously. Perfect for party games and family game nights."
     },
-    "automaticAlerts": {
-      "title": "Automatic Alerts",
-      "description": "If you miss check-ins for two consecutive days, your emergency contact is automatically notified on the third day."
+    "scoreHistory": {
+      "title": "Score History",
+      "description": "View complete score history for each game. See how the game unfolded round by round."
     },
-    "privacyFirst": {
-      "title": "Privacy First",
-      "description": "Your data stays private. No tracking, no unnecessary data collection, just peace of mind."
+    "customGames": {
+      "title": "Custom Games",
+      "description": "Create custom games with your own scoring rules. Adapt the app to any board game."
     },
-    "simpleReliable": {
-      "title": "Simple & Reliable",
-      "description": "Clean interface with no distractions. Designed to be simple and dependable when it matters most."
+    "quickSetup": {
+      "title": "Quick Setup",
+      "description": "Start tracking in seconds. Select players, choose a game, and begin playing."
     },
-    "emergencyContact": {
-      "title": "Emergency Contact",
-      "description": "Set up your trusted contact who will be notified if something seems wrong."
+    "visualScoreboard": {
+      "title": "Visual Scoreboard",
+      "description": "Beautiful, easy-to-read scoreboard that shows all players and their scores at a glance."
     },
     "worksOffline": {
       "title": "Works Offline",
-      "description": "Check-ins are recorded offline and synced when you're back online. Always reliable."
+      "description": "No internet required. Track scores anywhere, anytime. Your data is saved locally."
     }
   },
   "seeItInAction": {
     "title": "See It in Action",
-    "subtitle": "Experience the simplicity and peace of mind Between Days provides",
+    "subtitle": "Experience the simplicity and elegance of Skora: Tabletop",
     "screenshots": {
       "dailyCheckIn": {
-        "title": "Daily Check-In",
-        "description": "Simple, one-tap check-in to let loved ones know you're safe",
+        "title": "Game Selection",
+        "description": "Choose from popular games or create your own custom game",
         "placeholder": "Main Screen"
       },
       "easyOnboarding": {
-        "title": "Easy Onboarding",
-        "description": "Get started quickly with a simple, guided setup process",
+        "title": "Player Setup",
+        "description": "Add players quickly with a simple, intuitive interface",
         "placeholder": "Onboarding"
       },
       "settings": {
-        "title": "Settings",
-        "description": "Manage your name, emergency contact, and language preferences",
+        "title": "Score Tracking",
+        "description": "Track scores easily with tap controls and visual feedback",
         "placeholder": "Settings View"
       }
     }

@@ -1,62 +1,62 @@
 {
-  "appName": "Napról napra",
+  "appName": "Skora: Társasjáték",
   "navigation": {
     "features": "Funkciók",
     "contact": "Kapcsolat",
     "termsPrivacy": "Feltételek és Adatvédelem"
   },
   "hero": {
-    "title": "Nyugalom",
-    "subtitle": "Egyedül élőknek",
-    "description": "Egy egyszerű, megbízható alkalmazás, amely segít a barátoknak és családtagoknak nyomon követni egymás jólétét napi bejelentkezéseken keresztül. Ha két egymást követő napig lemarad a bejelentkezésről, az alkalmazás automatikusan értesíti a vészhelyzeti kapcsolatot.",
+    "title": "Kövesd a játékokat",
+    "subtitle": "A tökéletes társasjáték pontszámláló",
+    "description": "Kövesd az összes kedvenc társasjátékod pontjait. Egyszerű, elegáns, tökéletes baráti és családi játékestekhez. Soha többé ne felejtsd el, ki vezet.",
     "downloadButton": "Letöltés az App Store-ból",
     "screenshotPlaceholder": "Alkalmazás képernyőképe"
   },
   "features": {
     "title": "Minden, amire szüksége van",
-    "subtitle": "Egyszerű, megbízható funkciók a nyugalmáért",
-    "dailyCheckIns": {
-      "title": "Napi bejelentkezés",
-      "description": "Egyszerűen nyissa meg az alkalmazást minden nap, hogy megerősítse biztonságát. Kapjon push értesítéseket, hogy emlékeztesse a bejelentkezésre. Gyors, egyszerű és nem tolakodó."
+    "subtitle": "Erőteljes funkciók társasjáték-rajongóknak",
+    "multiplayer": {
+      "title": "Többjátékos támogatás",
+      "description": "Kövesd akár 8 játékos egyszerre. Tökéletes bulijátékokhoz és családi játékestekhez."
     },
-    "automaticAlerts": {
-      "title": "Automatikus értesítések",
-      "description": "Ha két egymást követő napig lemarad a bejelentkezésről, a vészhelyzeti kapcsolat automatikusan értesítést kap a harmadik napon."
+    "scoreHistory": {
+      "title": "Pontszám előzmények",
+      "description": "Tekintsd meg minden játék teljes pontszám előzményeit. Lásd, hogyan alakult a játék fordulóról fordulóra."
     },
-    "privacyFirst": {
-      "title": "Adatvédelem az első",
-      "description": "Az adatai privátak maradnak. Nincs követés, nincs szükségtelen adatgyűjtés, csak nyugalom."
+    "customGames": {
+      "title": "Egyéni játékok",
+      "description": "Hozz létre egyéni játékokat saját pontozási szabályokkal. Az alkalmazás bármely társasjátékhoz adaptálható."
     },
-    "simpleReliable": {
-      "title": "Egyszerű és megbízható",
-      "description": "Tiszta felület figyelemelterelés nélkül. Egyszerűnek és megbízhatónak tervezve, amikor az a legfontosabb."
+    "quickSetup": {
+      "title": "Gyors beállítás",
+      "description": "Másodpercek alatt kezdheted a pontozást. Válassz játékosokat, játékot, és kezdj játszani."
     },
-    "emergencyContact": {
-      "title": "Vészhelyzeti kapcsolat",
-      "description": "Állítsa be megbízható kapcsolatát, aki értesítést kap, ha valami nem stimmel."
+    "visualScoreboard": {
+      "title": "Vizuális ponttábla",
+      "description": "Gyönyörű, könnyen olvasható ponttábla, amely egy pillantásra mutatja az összes játékos pontjait."
     },
     "worksOffline": {
       "title": "Offline is működik",
-      "description": "A bejelentkezések offline módban is rögzítésre kerülnek, és szinkronizálódnak, amikor újra online van. Mindig megbízható."
+      "description": "Nincs internet szükséges. Bárhol, bármikor követheted a pontokat. Az adataid helyileg mentődnek."
     }
   },
   "seeItInAction": {
     "title": "Működés közben",
-    "subtitle": "Tapasztalja meg az egyszerűséget és nyugalmat, amit a Between Days nyújt",
+    "subtitle": "Tapasztald meg a Skora: Társasjáték egyszerűségét és eleganciáját",
     "screenshots": {
       "dailyCheckIn": {
-        "title": "Napi bejelentkezés",
-        "description": "Egyszerű, egy érintéses bejelentkezés, hogy szerettei tudják, biztonságban van",
+        "title": "Játék kiválasztása",
+        "description": "Válassz népszerű játékok közül, vagy hozd létre saját egyéni játékod",
         "placeholder": "Főképernyő"
       },
       "easyOnboarding": {
-        "title": "Könnyű kezdés",
-        "description": "Kezdjen el gyorsan egyszerű, irányított beállítási folyamattal",
+        "title": "Játékos beállítás",
+        "description": "Adj hozzá játékosokat gyorsan, egyszerű, intuitív felülettel",
         "placeholder": "Bevezetés"
       },
       "settings": {
-        "title": "Beállítások",
-        "description": "Kezelje nevét, vészhelyzeti kapcsolatát és nyelvi beállításait",
+        "title": "Pontszám követés",
+        "description": "Kövesd a pontszámokat könnyedén érintésvezérléssel és vizuális visszajelzéssel",
         "placeholder": "Beállítások nézet"
       }
     }

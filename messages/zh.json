@@ -1,62 +1,62 @@
 {
-  "appName": "平安日报",
+  "appName": "Skora: 桌游计分",
   "navigation": {
     "features": "功能特点",
     "contact": "联系我们",
     "termsPrivacy": "条款与隐私"
   },
   "hero": {
-    "title": "内心的安宁",
-    "subtitle": "为独居者而设计",
-    "description": "一款简单可靠的应用，通过每日签到帮助亲友监测彼此的安全状况。如果您连续两天未签到，您的紧急联系人将自动收到通知。",
+    "title": "记录你的游戏",
+    "subtitle": "终极桌游计分器",
+    "description": "为您喜爱的所有桌游记录分数。简单、优雅，是与朋友和家人游戏之夜的完美选择。再也不会忘记谁在赢。",
     "downloadButton": "在App Store下载",
     "screenshotPlaceholder": "应用截图占位符"
   },
   "features": {
     "title": "一切您所需要的",
-    "subtitle": "简单可靠的功能设计，让您安心无忧",
-    "dailyCheckIns": {
-      "title": "每日签到",
-      "description": "每天只需打开应用即可确认您的安全。接收推送通知提醒您签到。快速、简单、无干扰。"
+    "subtitle": "专为桌游爱好者设计的强大功能",
+    "multiplayer": {
+      "title": "多人支持",
+      "description": "同时追踪多达8名玩家。非常适合派对游戏和家庭游戏之夜。"
     },
-    "automaticAlerts": {
-      "title": "自动提醒",
-      "description": "如果您连续两天未签到，您的紧急联系人将在第三天自动收到通知。"
+    "scoreHistory": {
+      "title": "分数历史",
+      "description": "查看每场比赛的完整分数历史。了解比赛每一轮的进展。"
     },
-    "privacyFirst": {
-      "title": "隐私优先",
-      "description": "您的数据保持私密。无跟踪，无不必要的数据收集，只有内心的安宁。"
+    "customGames": {
+      "title": "自定义游戏",
+      "description": "创建具有自己计分规则的自定义游戏。让应用适应任何桌游。"
     },
-    "simpleReliable": {
-      "title": "简单可靠",
-      "description": "简洁的界面，没有干扰。在最关键的时刻设计得简单可靠。"
+    "quickSetup": {
+      "title": "快速设置",
+      "description": "几秒钟内开始追踪。选择玩家，选择游戏，然后开始玩。"
     },
-    "emergencyContact": {
-      "title": "紧急联系人",
-      "description": "设置您信任的联系人，当出现问题时将通知他们。"
+    "visualScoreboard": {
+      "title": "可视化计分板",
+      "description": "美观、易读的计分板，一目了然地显示所有玩家及其分数。"
     },
     "worksOffline": {
       "title": "离线可用",
-      "description": "离线时记录签到，恢复网络后自动同步。始终可靠。"
+      "description": "无需互联网。随时随地追踪分数。您的数据保存在本地。"
     }
   },
   "seeItInAction": {
     "title": "实际体验",
-    "subtitle": "体验Between Days带来的简单与安心",
+    "subtitle": "体验Skora: 桌游计分的简洁与优雅",
     "screenshots": {
       "dailyCheckIn": {
-        "title": "每日签到",
-        "description": "简单的一键签到，让您所爱的人知道您很安全",
+        "title": "游戏选择",
+        "description": "从热门游戏中选择或创建您自己的自定义游戏",
         "placeholder": "主屏幕"
       },
       "easyOnboarding": {
-        "title": "轻松上手",
-        "description": "通过简单的引导设置流程快速开始",
+        "title": "玩家设置",
+        "description": "通过简单直观的界面快速添加玩家",
         "placeholder": "引导页"
       },
       "settings": {
-        "title": "设置",
-        "description": "管理您的姓名、紧急联系人和语言偏好",
+        "title": "分数追踪",
+        "description": "使用点击控制和视觉反馈轻松追踪分数",
         "placeholder": "设置视图"
       }
     }

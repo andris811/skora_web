@@ -1,348 +1,240 @@
 {
-  "title": "Felhasználási feltételek és adatvédelmi irányelvek",
-  "lastUpdated": "Utolsó frissítés: 2026. január",
-  "appDescription": "egy iOS alkalmazás, amelyet azért terveztek, hogy segítse az egyedül élő embereket az egészségi állapotuk jelzésében napi bejelentkezések révén. Ha a felhasználó két egymást követő napig nem jelentkezik be, az alkalmazás automatikusan küld egy e-mail értesítést a harmadik napon a kijelölt vészhelyzeti kapcsolattartónak, hogy ellenőrizze a felhasználót.",
-  "agreeToTerms": "Az alkalmazás használatával elfogadja az alább ismertetett feltételeket és gyakorlatokat.",
+  "title": "Felhasználási Feltételek és Adatvédelmi Irányelvek",
+  "lastUpdated": "Utoljára frissítve: 2026. február",
+  "appDescription": "egy iOS alkalmazás, amely segít a játékosoknak nyomon követni a társasjátékok pontjait. Akár 8 játékos pontjait is követheted, megtekintheted a pontszámelőzményeket, és egyéni játékokat hozhatsz létre saját pontozási szabályokkal.",
+  "agreeToTerms": "Az alkalmazás használatával elfogadod az alábbi feltételeket és gyakorlatokat.",
   "sections": {
     "overview": "Áttekintés",
-    "termsOfUse": "Felhasználási feltételek",
-    "privacyPolicy": "Adatvédelmi irányelvek",
-    "childrensPrivacy": "Gyermekek adatvédelme",
-    "internationalUsers": "Nemzetközi felhasználók",
-    "changesToPolicy": "Változások ebben az irányelvben",
-    "yourConsent": "Az Ön hozzájárulása",
+    "termsOfUse": "Felhasználási Feltételek",
+    "privacyPolicy": "Adatvédelmi Irányelvek",
+    "childrensPrivacy": "Gyermekek Adatvédelme",
+    "internationalUsers": "Nemzetközi Felhasználók",
+    "changesToPolicy": "Változások a Szabályzatban",
+    "yourConsent": "Hozzájárulásod",
     "contact": "Kapcsolat",
-    "gdpr": "Adatkezelés jogalapja (GDPR)",
-    "ccpa": "Kaliforniai adatvédelmi jogok (CCPA)"
+    "gdpr": "Az Adatkezelés Jogi Alapja (GDPR)",
+    "ccpa": "Kaliforniai Adatvédelmi Jogok (CCPA)"
   },
   "overview": {
-    "para1": "A {appName} egy iOS alkalmazás, amely segít az egyedül élő embereknek az egészségi állapotuk jelzésében napi bejelentkezések révén. Ha a felhasználó két egymást követő napig nem jelentkezik be, az alkalmazás automatikusan küld egy e-mail értesítést a harmadik napon a kijelölt vészhelyzeti kapcsolattartónak, hogy ellenőrizze a felhasználót.",
-    "para2": "Az alkalmazás használatával elfogadja az alább ismertetett feltételeket és gyakorlatokat."
+    "para1": "{appName} egy iOS alkalmazás, amely segít a játékosoknak nyomon követni a társasjátékok pontjait. Akár 8 játékos pontjait is követheted, megtekintheted a pontszámelőzményeket, és egyéni játékokat hozhatsz létre saját pontozási szabályokkal.",
+    "para2": "Az alkalmazás használatával elfogadod az alábbi feltételeket és gyakorlatokat."
   },
   "termsOfUse": {
     "intendedUse": {
-      "title": "2.1 Szándékolt használat",
-      "para1": "A {appName} egy jóléti támogatási eszköz, <strong>nem vészhelyzeti szolgáltatás</strong>. Nem helyettesíti az orvosi ellátást, a vészhelyzeti válaszadókat vagy a hatóságok által végzett jóléti ellenőrzéseket.",
-      "para2": "Ne támaszkodjon erre az alkalmazásra életkritikus helyzetekben."
-    },
-    "automatedAlerts": {
-      "title": "2.2 Automatizált értesítések",
-      "para1": "Ha két egymást követő napig lemarad a bejelentkezésről, az alkalmazás automatikusan küld egy e-mailt a harmadik napon a kiválasztott vészhelyzeti kapcsolattartónak.",
-      "para2": "Ön elismeri és elfogadja:",
-      "list": [
-        "Az e-maileket szerverünkön keresztül automatikusan küldik, emberi beavatkozás nélkül",
-        "Az e-mail kézbesítése nem garantálható (függ az e-mail szolgáltatóktól, internetkapcsolattól)",
-        "Az alkalmazás nem tudja megerősíteni, hogy a címzett elolvassa vagy cselekszik az üzenetre",
-        "Hamis riasztások fordulhatnak elő, ha elfelejti bejelentkezni"
-      ]
+      "title": "2.1 Szánt Felhasználás",
+      "para1": "{appName} egy pontkövető eszköz, amelyet baráti és versengő társasjátékhoz terveztek. Segít a pontok nyomon követésében a játék során.",
+      "para2": "Ez az alkalmazás kizárólag szórakozási célra szolgál."
     },
     "accuracyOfInformation": {
-      "title": "2.3 Az információk pontossága",
-      "para1": "Ön felelős a következő biztosításáért:",
+      "title": "2.2 Az Információk Pontossága",
+      "para1": "Te vagy felelős a következőkért:",
       "list": [
-        "A helyes neve (opcionális, de ajánlott)",
-        "Egy érvényes és figyelt vészhelyzeti kapcsolattartó e-mail cím"
+        "Helyes játékos nevek megadása",
+        "Pontos pontkövetés a játékok során",
+        "Az alkalmazás naprakészen tartása a megfelelő működés érdekében"
       ],
-      "para2": "Helytelen vagy elavult információk megakadályozhatják a riasztások kézbesítését a megfelelő személynek."
+      "para2": "Az alkalmazás eszközöket biztosít a pontok követésére, de a játék eredményeinek pontossága a helyes használattól függ."
     },
     "noLiability": {
-      "title": "2.4 Nincs felelősség",
-      "para1": "A {appName} \"adott állapotában\" kerül biztosításra, mindenféle garancia nélkül. A fejlesztő nem felelős:",
+      "title": "2.3 Felelősség Kizárása",
+      "para1": "{appName} \"jelenlegi állapotban\" kerül biztosításra, garancia nélkül. A fejlesztő nem felelős a következőkért:",
       "list": [
-        "Elmaradt, késleltetett vagy kézbesítetlen e-mailekért",
-        "Internet, eszköz vagy harmadik fél szolgáltatásának kimaradásaiért",
-        "Bármely cselekvésért vagy cselekvés hiányáért a vészhelyzeti kapcsolattartók részéről",
-        "Az alkalmazásra való támaszkodásból eredő következményekért"
+        "Ponteltérésekből eredő viták",
+        "Játékeredmények használata szerencsejátékhoz vagy professzionális versenyekhez",
+        "Bármilyen adatvesztés az alkalmazás törlése miatt",
+        "Eszköz vagy szoftver problémák"
       ]
     },
     "userResponsibility": {
-      "title": "2.5 Felhasználói felelősség",
-      "para1": "Ön felelős:",
+      "title": "2.4 Felhasználói Felelősség",
+      "para1": "Te vagy felelős a következőkért:",
       "list": [
-        "Napi bejelentkezésért, ha meg akarja akadályozni a riasztásokat",
-        "Vészhelyzeti kapcsolattartó információinak naprakészen tartásáért",
-        "Vészhelyzeti kapcsolattartójának tájékoztatásáért, hogy automatizált riasztásokat kaphat",
-        "Annak megértéséért, hogy ez egy kiegészítő eszköz, nem helyettesíti a professzionális ellátást"
+        "Az alkalmazás tisztességes és pontos használata",
+        "Fontos játék adatok biztonsági mentése, ha szükséges",
+        "Minden játék pontozási szabályainak megértése"
       ]
     }
   },
   "privacyPolicy": {
     "whatDataWeCollect": {
-      "title": "3.1 Milyen adatokat gyűjtünk",
-      "para1": "A {appName} csak a működéshez szükséges minimális adatokat gyűjti. Nincsenek fiókok, jelszavak vagy közösségi bejelentkezések szükségesek.",
+      "title": "3.1 Milyen Adatokat Gyűjtünk",
+      "para1": "{appName} csak a működéshez szükséges minimális adatokat gyűjti. Nem szükséges fiók, jelszó vagy közösségi bejelentkezés.",
       "storedOnDevice": {
-        "title": "Eszközön tárolva (helyi tárolás)",
+        "title": "Tárolás az Eszközön (Helyi Tárolás)",
         "list": [
-          "Az Ön neve (opcionális)",
-          "Vészhelyzeti kapcsolattartó e-mail cím",
-          "Bejelentkezési előzmények (az utolsó 30 bejelentkezés dátumai)",
-          "Utolsó bejelentkezés dátuma és ideje",
-          "Alkalmazás nyelvi beállítása",
-          "Szöveg/ikon méret beállítása",
-          "Bevezetési folyamat befejezése állapota"
+          "Játékosnevek",
+          "Játéknevek és egyéni játék konfigurációk",
+          "Minden játék pontszámelőzményei",
+          "Alkalmazás beállítások (nyelv, téma)"
         ]
       },
       "syncedToIcloud": {
-        "title": "Szinkronizálva az iCloud-ba",
-        "para1": "Az alkalmazás újratelepítése vagy eszközváltás esetén az adatok helyreállításának engedélyezése érdekében a következő adatok az iCloud Key-Value Storage használatával automatikusan szinkronizálódnak az Ön személyes iCloud fiókjába:",
+        "title": "Szinkronizálás az iCloud-ba",
+        "para1": "Az adatok helyreállításának lehetővé tételére az alkalmazás újratelepítésekor vagy eszközváltáskor, a következő adatok automatikusan szinkronizálódnak a személyes iCloud fiókodba iCloud Key-Value Storage használatával:",
         "list": [
-          "Az Ön neve (ha megadta)",
-          "Vészhelyzeti kapcsolattartó e-mail cím",
-          "Utolsó bejelentkezés dátuma és ideje",
-          "Bejelentkezési előzmények (utolsó 30 nap)",
-          "Egymást követő kihagyott napok száma (kiszámított érték)",
-          "Alkalmazás beállításai (nyelv, szöveg mérete)"
+          "Játékosnevek",
+          "Játék konfigurációk",
+          "Pontszámelőzmények",
+          "Alkalmazás beállítások"
         ]
       },
-      "syncedToCloudkit": {
-        "title": "Szinkronizálva a CloudKit-re is",
-        "para1": "További biztonsági mentési mechanizmusként az adatok szinkronizálódnak az Ön privát CloudKit adatbázisába is:",
-        "list": [
-          "Eszközazonosító (névtelen UUID, nem kapcsolódik az Apple ID-hoz)",
-          "Minden fenti, \"Szinkronizálva az iCloud-ba\" listában szereplő adat",
-          "Szinkronizálási időbélyeg"
-        ],
-        "important": "**Fontos:** Mind az iCloud Key-Value Storage, mind a CloudKit adatok az Apple ID-hoz kötöttek. Csak Ön férhet hozzá ezekhez az adatokhoz az eszközei között. Mi nem férünk hozzá az Ön iCloud vagy CloudKit adataihoz. Az adatai az Apple biztonságos infrastruktúrájában tárolódnak."
-      }
+      "important": "**Fontos:** Az iCloud adatok az Apple ID-dhoz vannak kötve. Csak te férhetsz hozzá ezekhez az adatokhoz az eszközeiden keresztül. Nincs hozzáférésünk az iCloud adataidhoz."
     },
     "howDataIsUsed": {
-      "title": "3.2 Hogyan használjuk az adatokat",
-      "para1": "Az Ön adatait <strong>kizárólag</strong> a következő célokra használjuk:",
+      "title": "3.2 Hogyan Használjuk az Adatokat",
+      "para1": "Az adataidat **kizárólag** a következőkre használjuk:",
       "list": [
-        "Napi bejelentkezéseinek nyomon követése",
-        "Egymást követő kihagyott napok kiszámítása",
-        "Szükség esetén automatizált e-mail riasztások küldése a vészhelyzeti kapcsolattartónak",
-        "Adatok szinkronizálása az Ön személyes iCloud fiókjába biztonsági mentés és eszközök közötti helyreállítás céljából",
-        "Alkalmazás beállításainak személyre szabása (nyelv, szöveg mérete)"
+        "Játék pontok követése",
+        "Játék előzmények mentése",
+        "Adatok szinkronizálása a személyes iCloud fiókodba biztonsági mentés céljából",
+        "Alkalmazás beállítások személyre szabása"
       ],
       "weDoNot": "Nem:",
       "doNotList": [
-        "Eladjuk az adatait harmadik feleknek",
-        "Használjuk az adatait hirdetésre",
-        "Osztozunk az adataiban, kivéve az irányelvben leírtak szerint",
-        "Követjük az Ön tartózkodási helyét",
-        "Hozzáférünk más alkalmazásokhoz vagy adatokhoz az eszközén",
-        "Hozzáférünk az Ön iCloud adataihoz (titkosítottak és csak Ön számára hozzáférhetők)"
+        "Adjuk el adataidat harmadik félnek",
+        "Használjuk adataidat hirdetésekhez",
+        "Osztjuk meg adataidat, kivéve ha ebben a szabályzatban leírjuk",
+        "Követjük a tartózkodási helyedet",
+        "Férünk hozzá más alkalmazásokhoz vagy adatokhoz az eszközödön"
       ]
     },
-    "emailSending": {
-      "title": "3.3 E-mail küldési szolgáltatás",
-      "para1": "Az automatizált riasztási e-maileket a SendGrid (egy harmadik fél e-mail szolgáltató) küldi a háttérszerverünkön keresztül.",
-      "para2": "<strong>Működési elv:</strong>",
-      "howItWorks": [
-        "Amikor az alkalmazás észleli, hogy 2+ egymást követő napot kihagyott, eszkalációs kérést küld a szerverünknek",
-        "A szerverünk (Railway-en üzemeltetett) feldolgozza a kérést és e-mailt küld a SendGrid-en keresztül",
-        "Az e-mail kizárólag az Ön megadott vészhelyzeti kapcsolattartójának kerül elküldésre"
-      ],
-      "para3": "<strong>E-mail tartalma:</strong>",
-      "list": [
-        "Az Ön neve (ha megadta)",
-        "Egymást követő kihagyott napok száma",
-        "Utasítások a címzett számára",
-        "Automatizált \"NE VÁLASZOLJ\" figyelmeztetések",
-        "Küldő: safety@betweendays.app"
-      ],
-      "para4": "A SendGrid csak a kézbesítés céljából dolgozza fel az e-mail tartalmat, és nem használja az adatait más célokra."
-    },
     "pushNotifications": {
-      "title": "3.4 Push értesítések",
-      "para1": "Az alkalmazás push értesítéseket küldhet, hogy emlékeztesse Önt a bejelentkezésre. Ezek az Ön engedélyét igénylik, és az eszköz beállításaiban kezelhetők. Ez a funkció nem gyűjt személyes adatokat."
+      "title": "3.3 Push Értesítések",
+      "para1": "Az alkalmazás push értesítéseket küldhet játékemlékeztetőkről, ha engedélyezed. Ehhez engedélyed szükséges, és az eszközbeállításokban kezelheted."
     },
     "dataStorageAndSecurity": {
-      "title": "3.5 Adattárolás és biztonság",
+      "title": "3.4 Adattárolás és Biztonság",
       "localStorage": {
-        "title": "Helyi tárolás",
+        "title": "Helyi Tárolás",
         "list": [
-          "Az adatok biztonságosan tárolódnak az eszközén az iOS UserDefaults használatával",
-          "Az eszköz beépített biztonsága védi (jelszó, Face ID stb.)",
+          "Az adatok biztonságosan tárolódnak az eszközödön iOS UserDefaults használatával",
+          "Az eszközöd beépített biztonsága védi",
           "Automatikusan törlődik az alkalmazás eltávolításakor"
         ]
       },
       "cloudStorage": {
-        "title": "iCloud tárolás (Key-Value Storage és CloudKit)",
+        "title": "iCloud Tárolás",
         "list": [
-          "Az adatok az Ön személyes iCloud fiókjában tárolódnak (Apple által üzemeltetett)",
-          "Titkosított kapcsolatokon keresztül kerülnek továbbításra",
-          "Az Apple ID jelszó és kétfaktoros hitelesítés védi",
-          "<strong>Az alkalmazás törlése után is fennmarad</strong> (az adatok helyreállításának lehetővé tétele érdekében)",
-          "Csak az Apple ID-val bejelentkezett eszközökről érhető el",
-          "Az Apple biztonságos adatközpontjaiban tárolódik"
-        ]
-      },
-      "backendServer": {
-        "title": "Háttérszerver (Railway)",
-        "list": [
-          "A Railway biztonságos infrastruktúráján üzemeltetett",
-          "Nem tárolja tartósan az Ön személyes adatait",
-          "Csak valós időben dolgozza fel az eszkalációs e-mail kéréseket",
-          "Biztonságos API-n keresztül kommunikál a SendGrid-del az e-mail kézbesítéshez"
+          "Az adatok a személyes iCloud fiókodban tárolódnak",
+          "Titkosított kapcsolaton keresztül továbbítva",
+          "Az Apple ID jelszavad védi",
+          "Az alkalmazás törlése után is megmarad"
         ]
       }
     },
     "dataRetention": {
-      "title": "3.6 Adatmegőrzés",
-      "para1": "Az Ön adatai több helyen tárolódnak, különböző megőrzési irányelvekkel:",
+      "title": "3.5 Adatmegőrzés",
+      "para1": "Az adataid helyileg tárolódnak az eszközödön, és opcionálisan szinkronizálódnak az iCloud-ba.",
       "onYourDevice": {
-        "title": "Az Ön eszközén",
+        "title": "Az Eszközödön",
         "list": [
-          "Az adatok az alkalmazás eltávolításáig megmaradnak",
-          "Az alkalmazás eltávolítása <strong>véglegesen törli</strong> az összes helyi adatot"
+          "Az adatok megmaradnak, amíg nem távolítod el az alkalmazást",
+          "Az alkalmazás eltávolítása véglegesen törli az összes helyi adatot"
         ]
       },
       "inIcloud": {
-        "title": "Az iCloud-ban (Key-Value Storage és CloudKit)",
+        "title": "Az iCloud-ban",
         "list": [
-          "Az adatok <strong>az alkalmazás törlése után is fennmaradnak</strong>",
-          "Ez lehetővé teszi az adatok helyreállítását, ha újratelepíti az alkalmazást",
-          "Szinkronizálva van az összes eszközén, amely ugyanazzal az Apple ID-val van bejelentkezve"
-        ]
-      },
-      "onRailwayServer": {
-        "title": "A Railway szerveren",
-        "list": [
-          "Nincs tartós adattárolás",
-          "Az eszkalációs kéréseket valós időben dolgozzuk fel és nem őrizzük meg"
+          "Az adatok megmaradnak az alkalmazás törlése után is",
+          "Ez lehetővé teszi az adatok helyreállítását az alkalmazás újratelepítésekor"
         ]
       },
       "toPermanentlyDelete": {
         "title": "Az összes adat végleges törléséhez:",
         "steps": [
-          "Nyissa meg az alkalmazást",
-          "Menjen a Beállításokba",
-          "Használja az \"Összes adat visszaállítása\" opciót",
-          "Ezután távolítsa el az alkalmazást"
-        ],
-        "para1": "Ha csak eltávolítja anélkül, hogy visszaállítaná, az adatok az iCloud-ban maradnak, és visszaállnak, ha újratelepíti az alkalmazást ugyanazon Apple ID-val.",
-        "para2": "<strong>Megjegyzés:</strong> Az iCloud adatokat az Apple kezeli. Az alkalmazásból történő adattörlés eltávolítja azokat az iCloud Key-Value Storage-ből és a CloudKit-ből, de az Apple megtarthatja a biztonsági másolatokat adatmegőrzési irányelveik szerint."
+          "Távolítsd el az alkalmazást az eszközödről",
+          "Ha az iCloud szinkronizálás engedélyezve volt, az adatok az iCloud-ban maradnak, amíg manuálisan nem törlöd az iCloud beállításokon keresztül"
+        ]
       }
-      
     },
     "yourRightsAndControl": {
-      "title": "3.7 Az Ön jogai és ellenőrzése",
+      "title": "3.6 Jogaim és Ellenőrzésem",
       "para1": "Bármikor:",
       "list": [
-        "<strong>Megtekintheti</strong> a tárolt információit a Beállítások képernyőn",
-        "<strong>Frissítheti</strong> a nevét vagy vészhelyzeti kapcsolattartó e-mail címét",
-        "<strong>Módosíthatja</strong> az alkalmazás beállításait (nyelv, szöveg mérete)",
-        "<strong>Leállíthatja a jövőbeli riasztásokat</strong> a vészhelyzeti kapcsolattartó e-mail cím eltávolításával",
-        "<strong>Törölheti az összes adatot</strong> a \"Összes adat visszaállítása\" opcióval a Beállításokban",
-        "<strong>Kérheti az adattörlési segítséget</strong> a támogatással való kapcsolatfelvétellel (lásd 8. szakasz)"
+        "Megtekintheted a tárolt játékadataidat",
+        "Szerkesztheted a játékosneveket és pontokat",
+        "Törölheted az egyéni játékokat vagy az összes játékelőzményt",
+        "Módosíthatod az alkalmazás beállításait",
+        "Visszaállíthatod az összes adatot az alkalmazásból"
       ]
     },
     "thirdPartyServices": {
-      "title": "3.8 Harmadik fél szolgáltatások",
-      "para1": "A {appName} a következő harmadik fél szolgáltatásokat használja:",
+      "title": "3.7 Harmadik Fél Szolgáltatások",
+      "para1": "{appName} a következő harmadik fél szolgáltatásokat használja:",
       "icloud": {
         "title": "iCloud (Apple)",
         "list": [
-          "Cél: Felhő adattárolás és szinkronizálás biztonsági mentéshez és eszközök közötti szinkronizáláshoz",
-          "Megosztott adatok: Az alkalmazás adatai a Key-Value Storage és CloudKit használatával szinkronizálódnak az Ön személyes iCloud fiókjába",
-          "Adatvédelmi irányelvek: https://www.apple.com/legal/privacy/",
-          "Megjegyzés: Ez az Ön saját iCloud fiókja - mi nem férünk hozzá ezekhez az adatokhoz"
+          "Cél: Felhő adat tárolás és szinkronizálás biztonsági mentéshez",
+          "Megosztott adatok: Az alkalmazás adatai a személyes iCloud fiókodba szinkronizálódnak",
+          "Adatvédelmi szabályzat: https://www.apple.com/legal/privacy/"
         ]
       },
-      "railway": {
-        "title": "Railway",
-        "list": [
-          "Cél: Háttérszerver tárhely az eszkalációs e-mail kérések feldolgozásához",
-          "Megosztott adatok: E-mail cím, név, kihagyott napok száma (csak eszkaláció indításakor)",
-          "Adatmegőrzés: Nincs tartós tárolás - csak valós idejű feldolgozás",
-          "Adatvédelmi irányelvek: https://railway.app/legal/privacy"
-        ]
-      },
-      "sendgrid": {
-        "title": "SendGrid (Twilio)",
-        "list": [
-          "Cél: E-mail kézbesítés riasztásokhoz",
-          "Megosztott adatok: Vészhelyzeti kapcsolattartó e-mail, az Ön neve, riasztási üzenet tartalma",
-          "Adatvédelmi irányelvek: https://www.twilio.com/legal/privacy"
-        ]
-      },
-      "para2": "Ezeket a szolgáltatásokat saját adatvédelmi irányelveik kötik. Megbízható szolgáltatókat választunk erős adatvédelmi gyakorlatokkal és vállalati szintű biztonsággal."
+      "para2": "Ezeket a szolgáltatásokat saját adatvédelmi szabályzataik kötik."
     },
     "dataSharingAndDisclosure": {
-      "title": "3.9 Adatmegosztás és nyilvánosságra hozatal",
-      "para1": "Nem adjuk el vagy adjuk bérbe az adatait harmadik feleknek.",
-      "para2": "Csak a következő esetekben hozhatjuk nyilvánosságra az információit:",
+      "title": "3.8 Adatmegosztés és Közzététel",
+      "para1": "Nem adjuk el vagy adjuk bérbe adataidat harmadik félnek.",
+      "para2": "Csak a következő esetekben oszthatjuk meg adataidat:",
       "list": [
-        "Az Ön kijelölt vészhelyzeti kapcsolattartójának (a riasztási e-mail részeként)",
-        "Harmadik fél szolgáltatóknak (Railway, SendGrid) az e-mail riasztások kézbesítéséhez szükséges mértékben",
-        "Ha jogi eljárás vagy törvényi kötelezettség indokolja",
-        "A jogok, tulajdon vagy biztonság védelme érdekében"
-      ],
-      "para3": "<strong>Megjegyzés:</strong> Az Ön iCloud adatai az Ön személyes iCloud fiókjában tárolódnak, és nem kerülnek megosztásra velünk vagy harmadik felekkel."
+        "Jogi eljárás megkövetelésekor",
+        "Jogok, tulajdon vagy biztonság védelme érdekében"
+      ]
     }
   },
   "childrensPrivacy": {
-    "title": "4. Gyermekek adatvédelme",
-    "para1": "A {appName} nem 13 év alatti felhasználók számára készült. Nem gyűjtünk tudatosan személyes információkat 13 év alatti gyermekektől.",
-    "para2": "Ha Ön szülő vagy gondviselő, és úgy véli, hogy gyermeke személyes információkat adott nekünk, azonnal vegye fel velünk a kapcsolatot, hogy törölhessük."
+    "para1": "{appName} nem 13 év alatti felhasználóknak szól. Nem gyűjtünk tudatosan személyes adatokat 13 év alatti gyermekekről.",
+    "para2": "Ha szülő vagy gondviselő vagy, és úgy gondolod, hogy gyermeked személyes adatokat adott meg nekünk, kérlek, azonnal lépj kapcsolatba velünk, hogy törölhessük azokat."
   },
   "internationalUsers": {
-    "title": "5. Nemzetközi felhasználók",
-    "para1": "Az Ön iCloud adatai Apple adatközpontjaiban tárolódnak, amelyek különböző országokban lehetnek az Ön régiójától és Apple ID beállításaitól függően. A háttérszerverünk (Railway) különböző globális régiókban működik. A SendGrid e-mail szolgáltatás elsősorban az Egyesült Államokban működik.",
-    "para2": "Az alkalmazás használatával Ön hozzájárul az adatoknak az irányelvben leírt módon történő feldolgozásához. Ezek az országok különböző adatvédelmi törvényekkel rendelkezhetnek, mint az Ön lakóhelye szerinti ország.",
-    "chinaNote": "<strong>Kínában tartózkodó felhasználók számára:</strong> Az iCloud adatok az Apple kínai adatközpontjaiban tárolódnak, amelyeket a GCBD (Guizhou on the Cloud Big Data) üzemeltet, a kínai adatvédelmi előírásoknak megfelelően."
+    "para1": "Az iCloud adataid Apple adatközpontokban tárolódnak, amelyek a régiódtól és Apple ID beállításaidtól függően különböző országokban találhatók.",
+    "para2": "Az alkalmazás használatával hozzájárulsz az ebben a szabályzatban leírt adatkezeléshez."
   },
   "changesToPolicy": {
-    "title": "6. Változások ebben az irányelvben",
-    "para1": "Időről időre frissíthetjük ezeket a Felhasználási feltételeket és Adatvédelmi irányelveket. A változások az oldal tetején lévő \"Utolsó frissítés\" dátum frissítésével jelennek meg.",
-    "para2": "Az alkalmazás változások utáni további használata az elfogadott frissített feltételeket jelenti.",
-    "para3": "Ha jelentős változások érintik az Ön adatvédelmi jogait, lehetőség szerint értesítést küldünk az alkalmazáson belül."
+    "para1": "Fenntartjuk a jogot, hogy időnként frissítsük ezeket a Felhasználási Feltételeket és Adatvédelmi Irányelveket. A változásokat az oldal tetején lévő \"Utoljára frissítve\" dátum frissítésével jelezzük.",
+    "para2": "Az alkalmazás változások utáni további használata a frissített feltételek elfogadásának minősül."
   },
   "yourConsent": {
-    "title": "7. Az Ön hozzájárulása",
-    "para1": "A {appName} letöltésével, telepítésével és használatával Ön hozzájárul:",
+    "para1": "A {appName} letöltésével, telepítésével és használatával hozzájárulsz:",
     "list": [
-      "Az adatok gyűjtéséhez és használatához az irányelvben leírtak szerint",
-      "Automatizált riasztások küldéséhez a vészhelyzeti kapcsolattartónak a háttérszerverünkön keresztül",
-      "Az adatok tárolásához az Ön személyes iCloud fiókjában (Key-Value Storage és CloudKit)",
-      "A 2. szakaszban leírt feltételekhez és korlátozásokhoz"
+      "Az ebben a szabályzatban leírt adatgyűjtéshez és használathoz",
+      "Adatok tárolásához a személyes iCloud fiókodban (ha engedélyezed)",
+      "Ebben a dokumentumban leírt feltételekhez"
     ]
   },
   "contact": {
-    "title": "8. Kapcsolat",
-    "para1": "Ha kérdései, aggályai vagy kérései vannak ezekkel a feltételekkel vagy adatvédelmi gyakorlatokkal kapcsolatban, kérjük, lépjen kapcsolatba:",
+    "para1": "Ha kérdéseid, aggodalmaid vagy kéréseid vannak ezekkel a feltételekkel vagy az adatvédelmi gyakorlatokkal kapcsolatban, kérlek, lépj kapcsolatba:",
     "support": {
       "title": "{appName} Támogatás",
       "email": "E-mail: "
     },
-    "para2": "Az adat törlési kérésekhez közvetlenül törölheti az összes adatot az alkalmazásból:",
-    "steps": [
-      "Nyissa meg a Beállításokat",
-      "Görgessen az \"Adatok\" szakaszhoz",
-      "Koppintson az \"Összes adat visszaállítása\" gombra"
-    ],
-    "para3": "Ez törli a helyi és iCloud adatokat is. Az adatvédelmi kérdésekre 30 napon belül válaszolunk."
+    "para2": "30 napon belül válaszolunk a kérdésekre."
   },
   "gdpr": {
-    "title": "9. Adatkezelés jogalapja (GDPR)",
-    "para1": "Ha Ön az Európai Gazdasági Térségben (EGT) tartózkodik, az adatok gyűjtésére és használatára vonatkozó jogalapunk:",
+    "para1": "Ha az Európai Gazdasági Térségben (EGT) tartózkodsz, az adataid gyűjtésének és használatának jogi alapja:",
     "list": [
-      "<strong>Hozzájárulás:</strong> Ön kifejezett hozzájárulást ad a vészhelyzeti kapcsolattartó beállításával",
-      "<strong>Jogos érdek:</strong> Az alkalmazás alapvető funkcionalitásának működtetése (bejelentkezési követés)"
+      "<strong>Hozzájárulás:</strong> Az alkalmazás használatával adsz kifejezett hozzájárulást",
+      "<strong>jogos érdek:</strong> Az alkalmazás alapvető funkcióinak működtetése"
     ],
-    "para2": "Önnek joga van:",
+    "para2": "Jogod van:",
     "rights": [
-      "Hozzáférés a személyes adataihoz",
-      "Pontatlan adatok helyesbítése",
-      "Adatok törlése (\"az elfeledtetéshez való jog\")",
-      "Feldolgozás korlátozása vagy tiltakozás",
+      "Hozzáférni személyes adataidhoz",
+      "Helyesbíteni a pontatlan adatokat",
+      "Törölni az adataidat",
+      "Korlátozni vagy tiltakozni az adatkezelés ellen",
       "Adathordozhatóság",
-      "Hozzájárulás visszavonása bármikor"
+      "Bármikor visszavonni a hozzájárulást"
     ],
-    "para3": "Ezen jogok gyakorlásához lépjen kapcsolatba velünk az avdev2024@gmail.com címen."
+    "para3": "Ezeknek a jogoknak a gyakorlásához írj nekünk az avdev2024@gmail.com címre."
   },
   "ccpa": {
-    "title": "10. Kaliforniai adatvédelmi jogok (CCPA)",
-    "para1": "Ha Ön kaliforniai lakos, joga van:",
+    "para1": "Ha kaliforniai lakos vagy, jogod van:",
     "list": [
-      "Tudni, hogy milyen személyes információkat gyűjtünk és hogyan használjuk",
-      "Személyes információinak törlését kérni",
-      "Tiltakozni a személyes információk értékesítése ellen (nem értékesítjük az adatait)",
-      "Hátrányos megkülönböztetés nélkül gyakorolni az adatvédelmi jogait"
+      "Tudni, milyen személyes adatokat gyűjtünk és hogyan használjuk azokat",
+      "Kérni a személyes adataid törlését",
+      "Kilépni a személyes adatok értékesítéséből",
+      "Adatvédelmi jogaid gyakorlása mellett hátrányos megkülönböztetés nélkül"
     ],
-    "para3": "Ezen jogok gyakorlásához lépjen kapcsolatba velünk az avdev2024@gmail.com címen."
+    "para3": "Ezeknek a jogoknak a gyakorlásához írj nekünk az avdev2024@gmail.com címre."
   },
-  "finalNote": "A {appName} használatával Ön elismeri, hogy elolvasta és megértette ezt az Adatvédelmi irányelvet és Felhasználási feltételeket."
+  "finalNote": "A {appName} használatával megerősíted, hogy elolvastad és megértetted ezeket az Adatvédelmi Irányelveket és Felhasználási Feltételeket."
 }

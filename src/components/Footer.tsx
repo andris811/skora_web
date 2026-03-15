@@ -9,7 +9,7 @@ export default function Footer() {
   const locale = useLocale();
 
   return (
-    <footer className="bg-[#fdf6eb] border-t border-[#E5DCC8] text-gray-900 py-12">
+    <footer className="bg-[#0f0a19] border-t border-[#2d2340] text-gray-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col items-center md:items-start gap-4">
@@ -21,14 +21,14 @@ export default function Footer() {
                 height={32}
                 className="rounded-lg"
               />
-              <span className="text-2xl font-bold text-[#4A7BA7]">{tApp('appName')}</span>
+              <span className="text-2xl font-bold text-[#a855f7]">{tApp('appName')}</span>
             </div>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.linkedin.com/in/andrasv89/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-[#4A7BA7] transition-colors"
+                className="text-gray-400 hover:text-[#a855f7] transition-colors"
                 aria-label="LinkedIn"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ export default function Footer() {
                 href="https://github.com/andris811"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-[#4A7BA7] transition-colors"
+                className="text-gray-400 hover:text-[#a855f7] transition-colors"
                 aria-label="GitHub"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -50,19 +50,19 @@ export default function Footer() {
           </div>
           <ul className="flex flex-wrap gap-6 justify-center">
             <li>
-              <a href="mailto:avdev2024@gmail.com" className="text-gray-600 hover:text-[#4A7BA7] transition-colors">
+              <a href="mailto:avdev2024@gmail.com" className="text-gray-400 hover:text-[#a855f7] transition-colors">
                 {t('contact')}
               </a>
             </li>
             <li>
-              <a href={`/${locale}/terms-privacy`} className="text-gray-600 hover:text-[#4A7BA7] transition-colors">
+              <a href={`/${locale}/terms-privacy`} className="text-gray-400 hover:text-[#a855f7] transition-colors">
                 {t('termsPrivacy')}
               </a>
             </li>
           </ul>
         </div>
-        <div className="text-center mt-8 pt-8 border-t border-[#E5DCC8] text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} {tApp('appName')}. {t('copyright')} | {t('madeBy')} <a href="https://andris811.github.io/avdev/" target="_blank" rel="noopener noreferrer" className="text-[#4A7BA7] hover:text-[#3d6a8f] transition-colors">AVDev</a></p>
+        <div className="text-center mt-8 pt-8 border-t border-[#E5DCC8] text-gray-400 text-sm">
+          <p>&copy; {new Date().getFullYear()} {tApp('appName')}. {t('copyright')} | {t('madeBy')} <a href="https://andris811.github.io/avdev/" target="_blank" rel="noopener noreferrer" className="text-[#a855f7] hover:text-[#3d6a8f] transition-colors">AVDev</a></p>
         </div>
       </div>
     </footer>

@@ -30,14 +30,14 @@ export default function SeeItInAction() {
   ];
 
   return (
-    <section className="py-20 sm:py-24 lg:py-32 bg-[#fdf6eb] border-t border-[#E5DCC8]">
+    <section className="py-20 sm:py-24 lg:py-32 bg-[#0f0a19] border-t border-[#2d2340]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-100 mb-4">
               {t('title')}
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               {t('subtitle')}
             </p>
           </div>
@@ -58,10 +58,10 @@ export default function SeeItInAction() {
                     />
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 text-center">
+                <h3 className="text-xl font-semibold text-gray-100 mb-2 text-center">
                   {screenshot.title}
                 </h3>
-                <p className="text-gray-600 text-center">
+                <p className="text-gray-300 text-center">
                   {screenshot.description}
                 </p>
               </div>
