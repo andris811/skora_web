@@ -11,3 +11,4 @@ This repository contains the landing page and legal documentation (Terms of Serv
 ---
 
 © 2026 Between Days • Made with care by [AVDev](https://andris811.github.io/avdev/)
+# skora_web
