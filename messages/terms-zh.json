@@ -1,240 +1,325 @@
 {
-  "title": "使用条款与隐私政策",
-  "lastUpdated": "最后更新：2026年2月",
-  "appDescription": "是一款iOS应用程序，旨在帮助玩家跟踪桌面游戏的分数。最多可跟踪8名玩家的分数，查看分数历史，并创建具有自定义计分规则的游戏。",
-  "agreeToTerms": "使用该应用程序即表示您同意以下条款和做法。",
-  "sections": {
-    "overview": "概述",
-    "termsOfUse": "使用条款",
-    "privacyPolicy": "隐私政策",
-    "childrensPrivacy": "儿童隐私",
-    "internationalUsers": "国际用户",
-    "changesToPolicy": "政策变更",
-    "yourConsent": "您的同意",
-    "contact": "联系我们",
-    "gdpr": "处理的法律依据（GDPR）",
-    "ccpa": "加州隐私权（CCPA）"
-  },
-  "overview": {
-    "para1": "{appName}是一款iOS应用程序，旨在帮助玩家跟踪桌面游戏的分数。最多可跟踪8名玩家的分数，查看分数历史，并创建具有自定义计分规则的游戏。",
-    "para2": "使用该应用程序即表示您同意以下条款和做法。"
-  },
-  "termsOfUse": {
-    "intendedUse": {
-      "title": "2.1 预期用途",
-      "para1": "{appName}是一款分数跟踪工具，专为休闲和竞技桌面游戏设计。它有助于在游戏过程中跟踪分数。",
-      "para2": "此应用程序仅用于娱乐目的。"
+  "lastUpdated": "February 26, 2026",
+  "termsTitle": "Terms of Service",
+  "privacyTitle": "Privacy Policy",
+  "terms": {
+    "1": {
+      "title": "Acceptance of Terms",
+      "content": "By downloading, installing, or using Skora (\"the App\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, do not use the App."
     },
-    "accuracyOfInformation": {
-      "title": "2.2 信息准确性",
-      "para1": "您有责任：",
+    "2": {
+      "title": "Description of Service",
+      "intro": "Skora is a board game scorekeeper application that provides:",
       "list": [
-        "输入正确的玩家姓名",
-        "在游戏过程中准确跟踪分数",
-        "保持应用程序更新以确保正常功能"
-      ],
-      "para2": "应用程序提供跟踪分数的工具，但游戏结果的准确性取决于正确使用。"
-    },
-    "noLiability": {
-      "title": "2.3 免责声明",
-      "para1": "{appName}按「原样」提供，不提供任何保证。开发者不对以下情况承担责任：",
-      "list": [
-        "因分数差异而产生的争议",
-        "将游戏结果用于赌博或专业比赛",
-        "因删除应用程序而导致的数据丢失",
-        "设备或软件问题"
+        "Score tracking and game management",
+        "Player profile management with photos",
+        "Game history and statistics",
+        "Local multiplayer connectivity via peer-to-peer networking",
+        "iCloud synchronization (optional)",
+        "Premium features via in-app purchase"
       ]
     },
-    "userResponsibility": {
-      "title": "2.4 用户责任",
-      "para1": "您有责任：",
+    "3": {
+      "title": "User Accounts",
+      "content": "Skora does not require user account creation. All data is stored locally on your device and optionally synced via your personal iCloud account."
+    },
+    "4": {
+      "title": "Premium Features",
+      "4.1": {
+        "title": "In-App Purchase",
+        "intro": "Premium features are available through a one-time in-app purchase. Premium features include:",
+        "list": [
+          "Increased player limit (up to 12 players)",
+          "Unlimited game history",
+          "Additional app themes and icons"
+        ]
+      },
+      "4.2": {
+        "title": "Refunds",
+        "content": "All purchases are processed through the Apple App Store and are subject to Apple's refund policies. We do not process refunds directly."
+      },
+      "4.3": {
+        "title": "No Recurring Charges",
+        "content": "The Premium upgrade is a one-time purchase with no subscription or recurring fees."
+      }
+    },
+    "5": {
+      "title": "User Conduct",
+      "intro": "You agree to use the App only for lawful purposes. You will not:",
       "list": [
-        "公平准确地使用应用程序",
-        "如需重要游戏数据，请自行备份",
-        "了解您所玩每个游戏的计分规则"
+        "Reverse engineer, decompile, or disassemble the App",
+        "Use the App to transmit harmful code or malicious content",
+        "Attempt to interfere with the App's operation",
+        "Use the App in violation of any applicable laws"
       ]
+    },
+    "6": {
+      "title": "Multiplayer Features",
+      "6.1": {
+        "title": "Local Connectivity",
+        "content": "Multiplayer features use Apple's MultipeerConnectivity framework for local peer-to-peer connections. No data is transmitted over the internet during multiplayer sessions."
+      },
+      "6.2": {
+        "title": "User Responsibility",
+        "content": "You are responsible for the players you invite to multiplayer games. We are not liable for any data shared during local multiplayer sessions."
+      }
+    },
+    "7": {
+      "title": "Third-Party Services",
+      "7.1": {
+        "title": "iCloud",
+        "content": "If you enable iCloud sync, your data is stored in your personal iCloud account subject to Apple's terms and privacy policies."
+      }
+    },
+    "8": {
+      "title": "Intellectual Property",
+      "8.1": {
+        "title": "Ownership",
+        "content": "The App, including all content, features, and functionality, is owned by the developer and protected by international copyright, trademark, and other intellectual property laws."
+      },
+      "8.2": {
+        "title": "User Content",
+        "content": "You retain ownership of all photos and data you add to the App. By using the App, you grant us a non-exclusive license to store and display your content within the App for functionality purposes."
+      }
+    },
+    "9": {
+      "title": "Data Backup",
+      "content": "You are responsible for backing up your data. We recommend enabling iCloud sync to prevent data loss. We are not liable for any data loss resulting from device failure, App deletion, or other circumstances."
+    },
+    "10": {
+      "title": "Disclaimer of Warranties",
+      "content": "THE APP IS PROVIDED \"AS IS\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT."
+    },
+    "11": {
+      "title": "Limitation of Liability",
+      "content": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES."
+    },
+    "12": {
+      "title": "Changes to Terms",
+      "content": "We reserve the right to modify these Terms at any time. We will notify users of material changes through the App or App Store updates. Continued use of the App after changes constitutes acceptance of the new Terms."
+    },
+    "13": {
+      "title": "Termination",
+      "content": "We reserve the right to terminate or suspend access to the App immediately, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties, or for any other reason."
+    },
+    "14": {
+      "title": "Governing Law",
+      "content": "These Terms shall be governed by and construed in accordance with the laws of your jurisdiction, without regard to its conflict of law provisions."
+    },
+    "15": {
+      "title": "Contact",
+      "content": "For questions about these Terms, please contact: avdev2024@gmail.com"
     }
   },
-  "privacyPolicy": {
-    "whatDataWeCollect": {
-      "title": "3.1 我们收集哪些数据",
-      "para1": "{appName}仅收集运行所需的最少数据。不需要账户、密码或社交登录。",
-      "storedOnDevice": {
-        "title": "存储在设备上（本地存储）",
+  "privacy": {
+    "1": {
+      "title": "Introduction",
+      "content": "This Privacy Policy explains how Skora (\"we,\" \"us,\" or \"the App\") collects, uses, and protects your information. We are committed to protecting your privacy and being transparent about our data practices."
+    },
+    "2": {
+      "title": "Information We Collect",
+      "2.1": {
+        "title": "Information You Provide",
         "list": [
-          "玩家姓名",
-          "游戏名称和自定义游戏配置",
-          "每个游戏的分数历史",
-          "应用程序偏好设置（语言、主题）"
+          "Player Names: Names you enter for player profiles",
+          "Photos: Images you add from your camera or photo library for player profiles and board games",
+          "Game Data: Game names, scores, dates, and statistics",
+          "Board Game Information: Names and metadata of board games you track"
         ]
       },
-      "syncedToIcloud": {
-        "title": "同步到iCloud",
-        "para1": "为了在重新安装应用程序或更换设备时允许数据恢复，以下数据会使用iCloud键值存储自动同步到您的个人iCloud账户：",
+      "2.2": {
+        "title": "Automatically Collected Information",
         "list": [
-          "玩家姓名",
-          "游戏配置",
-          "分数历史",
-          "应用程序偏好设置"
+          "Device Name: Used only for local multiplayer identification (e.g., \"John's iPhone\")",
+          "App Usage Data: Locally stored preferences and settings"
         ]
       },
-      "important": "**重要提示：**iCloud数据与您的Apple ID绑定。只有您可以跨设备访问此数据。我们无法访问您的iCloud数据。"
-    },
-    "howDataIsUsed": {
-      "title": "3.2 数据如何使用",
-      "para1": "您的数据<strong>仅</strong>用于：",
-      "list": [
-        "跟踪游戏分数",
-        "保存游戏历史",
-        "将数据同步到您的个人iCloud账户进行备份",
-        "个性化应用程序偏好设置"
-      ],
-      "weDoNot": "我们不会：",
-      "doNotList": [
-        "将您的数据出售给第三方",
-        "将您的数据用于广告",
-        "共享您的数据，除非本政策中所述",
-        "跟踪您的位置",
-        "访问您设备上的其他应用程序或数据"
-      ]
-    },
-    "pushNotifications": {
-      "title": "3.3 推送通知",
-      "para1": "如果启用，应用程序可能会发送游戏提醒推送通知。这些需要您的许可，可以在设备设置中管理。"
-    },
-    "dataStorageAndSecurity": {
-      "title": "3.4 数据存储和安全",
-      "localStorage": {
-        "title": "本地存储",
+      "2.3": {
+        "title": "Information We Do NOT Collect",
         "list": [
-          "数据使用iOS UserDefaults安全地存储在您的设备上",
-          "受设备内置安全保护",
-          "卸载应用程序时自动删除"
-        ]
-      },
-      "cloudStorage": {
-        "title": "iCloud存储",
-        "list": [
-          "数据存储在您的个人iCloud账户中",
-          "通过加密连接传输",
-          "受您的Apple ID密码保护",
-          "即使删除应用程序也会保留"
+          "We do NOT collect personal identifiers (email, phone number, address)",
+          "We do NOT track your location",
+          "We do NOT use analytics or tracking services",
+          "We do NOT collect data for advertising purposes",
+          "We do NOT transmit your data to our servers"
         ]
       }
     },
-    "dataRetention": {
-      "title": "3.5 数据保留",
-      "para1": "您的数据存储在本地设备上，并可选择同步到iCloud。",
-      "onYourDevice": {
-        "title": "在您的设备上",
+    "3": {
+      "title": "How We Use Your Information",
+      "3.1": {
+        "title": "Primary Uses",
+        "intro": "All data is used exclusively for App functionality:",
         "list": [
-          "数据保留到您卸载应用程序为止",
-          "卸载应用程序会永久删除所有本地数据"
+          "Displaying player profiles and scores",
+          "Calculating game statistics and history",
+          "Syncing data across your devices via iCloud (if enabled)",
+          "Identifying your device during local multiplayer sessions"
         ]
       },
-      "inIcloud": {
-        "title": "在iCloud中",
+      "3.2": {
+        "title": "No Secondary Uses",
+        "intro": "We do NOT:",
         "list": [
-          "数据即使删除应用程序也会保留",
-          "这允许在重新安装应用程序时恢复数据"
-        ]
-      },
-      "toPermanentlyDelete": {
-        "title": "要永久删除所有数据：",
-        "steps": [
-          "从设备上卸载应用程序",
-          "如果启用了iCloud同步，数据将保留在iCloud中，直到通过iCloud设置手动删除"
+          "Sell your data to third parties",
+          "Use your data for marketing",
+          "Share your data with advertisers",
+          "Analyze your data for purposes beyond App functionality"
         ]
       }
     },
-    "yourRightsAndControl": {
-      "title": "3.6 您的权利和控制",
-      "para1": "您可以随时：",
-      "list": [
-        "查看您存储的游戏数据",
-        "编辑玩家姓名和分数",
-        "删除单个游戏或所有游戏历史",
-        "修改应用程序偏好设置",
-        "从应用程序重置所有数据"
-      ]
-    },
-    "thirdPartyServices": {
-      "title": "3.7 第三方服务",
-      "para1": "{appName}使用以下第三方服务：",
-      "icloud": {
-        "title": "iCloud（Apple）",
+    "4": {
+      "title": "Data Storage",
+      "4.1": {
+        "title": "Local Storage",
+        "intro": "All data is stored locally on your device using:",
         "list": [
-          "目的：云数据存储和同步，用于备份",
-          "共享的数据：应用程序数据同步到您的个人iCloud账户",
-          "隐私政策：https://www.apple.com/legal/privacy/"
+          "UserDefaults: For app settings and preferences",
+          "Local Files: For photos and game data"
         ]
       },
-      "para2": "这些服务受其自己的隐私政策约束。"
+      "4.2": {
+        "title": "iCloud Storage (Optional)",
+        "intro": "If you enable iCloud sync:",
+        "list": [
+          "Data is stored in your personal iCloud account",
+          "We do not have access to your iCloud data",
+          "Storage is governed by Apple's Privacy Policy",
+          "You can disable iCloud sync at any time in Settings"
+        ]
+      },
+      "4.3": {
+        "title": "No Remote Servers",
+        "content": "We do NOT operate servers that store your data. All data remains on your device or in your personal iCloud account."
+      }
     },
-    "dataSharingAndDisclosure": {
-      "title": "3.8 数据共享和披露",
-      "para1": "我们不会向第三方出售或出租您的数据。",
-      "para2": "我们只会在以下情况下披露您的信息：",
+    "5": {
+      "title": "Data Sharing",
+      "5.1": {
+        "title": "Local Multiplayer",
+        "intro": "When using multiplayer features:",
+        "list": [
+          "Your device name is visible to other players on the same local network",
+          "Player profiles you select are shared with the host device temporarily during the game session",
+          "Game results are transmitted to connected devices at the end of the game",
+          "All data is transmitted locally via peer-to-peer connection (no internet required)"
+        ]
+      },
+      "5.2": {
+        "title": "Manual Sharing",
+        "content": "You can manually share scoreboard images through standard iOS sharing (Messages, Email, etc.). This is entirely your choice and under your control."
+      },
+      "5.3": {
+        "title": "Third Parties",
+        "intro": "We do NOT share your data with third parties, except:",
+        "list": [
+          "Apple: For iCloud sync (if enabled) and in-app purchases"
+        ]
+      }
+    },
+    "6": {
+      "title": "Data Security",
+      "6.1": {
+        "title": "Protection Measures",
+        "list": [
+          "All local data is protected by your device's security features (passcode, Face ID, Touch ID)",
+          "Multiplayer connections use encryption via Apple's MultipeerConnectivity framework",
+          "Photos are stored locally and not transmitted except during multiplayer sessions you initiate"
+        ]
+      },
+      "6.2": {
+        "title": "Your Responsibility",
+        "list": [
+          "Keep your device secure with a passcode or biometric lock",
+          "Backup important data via iCloud sync",
+          "Only join multiplayer sessions with trusted players"
+        ]
+      }
+    },
+    "7": {
+      "title": "Data Retention and Deletion",
+      "7.1": {
+        "title": "Retention",
+        "intro": "Data is retained indefinitely on your device until you:",
+        "list": [
+          "Delete individual items within the App",
+          "Delete the App from your device",
+          "Disable iCloud sync and delete iCloud data"
+        ]
+      },
+      "7.2": {
+        "title": "Deletion",
+        "intro": "To delete your data:",
+        "list": [
+          "Individual Items: Delete players, games, or game history within the App",
+          "All Data: Delete the App from your device",
+          "iCloud Data: Disable iCloud sync in Settings, then delete data from iCloud Settings"
+        ]
+      }
+    },
+    "8": {
+      "title": "Children's Privacy",
+      "content": "The App does not knowingly collect information from children under 13. The App is designed for general audiences and does not contain age-restricted content."
+    },
+    "9": {
+      "title": "Third-Party Services",
+      "9.1": {
+        "title": "Apple Services",
+        "intro": "The App uses Apple-provided services:",
+        "list": [
+          "iCloud: Optional sync (governed by Apple's Privacy Policy)",
+          "StoreKit: In-app purchases (governed by Apple's Privacy Policy)",
+          "MultipeerConnectivity: Local multiplayer (no data leaves the local network)",
+          "Photo Library & Camera: Accessed only with your explicit permission"
+        ]
+      }
+    },
+    "10": {
+      "title": "Your Rights",
+      "intro": "You have the right to:",
       "list": [
-        "法律程序要求时",
-        "为保护权利、财产或安全"
+        "Access all your data within the App at any time",
+        "Edit or delete any data you've entered",
+        "Export data via iCloud backup or manual sharing features",
+        "Opt out of iCloud sync at any time",
+        "Delete the App and all associated data"
       ]
-    }
-  },
-  "childrensPrivacy": {
-    "para1": "{appName}不适用于13岁以下的用户。我们不会故意收集13岁以下儿童的个人信息。",
-    "para2": "如果您是父母或监护人，并认为您的孩子向我们提供了个人信息，请立即联系我们以便我们删除。"
-  },
-  "internationalUsers": {
-    "para1": "您的iCloud数据存储在Apple数据中心，这些数据中心可能位于不同的国家，具体取决于您的地区和Apple ID设置。",
-    "para2": "使用应用程序即表示您同意按本政策中所述处理数据。"
-  },
-  "changesToPolicy": {
-    "para1": "我们可能会不时更新这些使用条款和隐私政策。更改将通过更新页面顶部的「最后更新」日期来表示。",
-    "para2": "更改后继续使用应用程序即表示接受更新的条款。"
-  },
-  "yourConsent": {
-    "para1": "通过下载、安装和使用{appName}，您同意：",
-    "list": [
-      "按本政策中所述收集和使用数据",
-      "将数据存储在您的个人iCloud账户中（如果启用）",
-      "本文件中描述的条款"
-    ]
-  },
-  "contact": {
-    "para1": "如果您对这些条款或隐私实践有疑问、疑虑或请求，请联系：",
-    "support": {
-      "title": "{appName}支持",
-      "email": "电子邮件："
     },
-    "para2": "我们将在30天内回复您的询问。"
-  },
-  "gdpr": {
-    "para1": "如果您位于欧洲经济区（EEA），我们收集和使用您数据的法律依据是：",
-    "list": [
-      "<strong>同意：</strong>您通过使用应用程序提供明确同意",
-      "<strong>合法权益：</strong>运营应用程序的核心功能"
-    ],
-    "para2": "您有权：",
-    "rights": [
-      "访问您的个人数据",
-      "更正不准确的数据",
-      "删除您的数据",
-      "限制或反对处理",
-      "数据可移植性",
-      "随时撤回同意"
-    ],
-    "para3": "要行使这些权利，请通过avdev2024@gmail.com与我们联系。"
-  },
-  "ccpa": {
-    "para1": "如果您是加州居民，您有权：",
-    "list": [
-      "了解我们收集哪些个人信息",
-      "请求删除您的个人信息",
-      "选择退出个人信息销售",
-      "在不受歧视的情况下行使您的隐私权"
-    ],
-    "para3": "要行使这些权利，请通过avdev2024@gmail.com与我们联系。"
-  },
-  "finalNote": "通过使用{appName}，您确认已阅读并理解本隐私政策和使用条款。"
+    "11": {
+      "title": "California Privacy Rights",
+      "intro": "If you are a California resident, you have additional rights under CCPA:",
+      "list": [
+        "Right to Know: We've detailed all data collection above",
+        "Right to Delete: You can delete all data by removing the App",
+        "Right to Opt-Out: We do not sell your personal information",
+        "No Discrimination: We do not discriminate based on privacy choices"
+      ]
+    },
+    "12": {
+      "title": "International Users",
+      "content": "The App is available worldwide. Your data is stored on your device and in your iCloud account (if enabled), subject to your region's data storage policies."
+    },
+    "13": {
+      "title": "Changes to Privacy Policy",
+      "intro": "We may update this Privacy Policy from time to time. We will notify you of material changes through:",
+      "list": [
+        "App update release notes",
+        "In-app notification",
+        "Updated \"Last Updated\" date at the top"
+      ],
+      "outro": "Continued use after changes constitutes acceptance of the new Privacy Policy."
+    },
+    "14": {
+      "title": "Contact Us",
+      "intro": "If you have questions about this Privacy Policy or data practices:",
+      "list": [
+        "Email: avdev2024@gmail.com",
+        "Response Time: We aim to respond within 7 business days"
+      ]
+    },
+    "15": {
+      "title": "Consent",
+      "content": "By using Skora, you consent to this Privacy Policy."
+    }
+  }
 }

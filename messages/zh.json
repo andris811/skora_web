@@ -17,7 +17,7 @@
     "subtitle": "专为桌游爱好者设计的强大功能",
     "multiplayer": {
       "title": "多人支持",
-      "description": "同时追踪多达8名玩家。非常适合派对游戏和家庭游戏之夜。"
+      "description": "同时追踪多达12名玩家。非常适合派对游戏和家庭游戏之夜。"
     },
     "scoreHistory": {
       "title": "分数历史",
@@ -44,20 +44,20 @@
     "title": "实际体验",
     "subtitle": "体验Skora: 桌游计分的简洁与优雅",
     "screenshots": {
-      "dailyCheckIn": {
-        "title": "游戏选择",
-        "description": "从热门游戏中选择或创建您自己的自定义游戏",
-        "placeholder": "主屏幕"
+      "mainMenu": {
+        "title": "主菜单",
+        "description": "通过直观的主菜单浏览您的游戏并访问所有功能",
+        "placeholder": "主菜单"
       },
-      "easyOnboarding": {
-        "title": "玩家设置",
-        "description": "通过简单直观的界面快速添加玩家",
-        "placeholder": "引导页"
+      "game": {
+        "title": "实时游戏视图",
+        "description": "实时追踪分数，全屏卡片显示所有4名玩家及其当前排名",
+        "placeholder": "游戏视图"
       },
-      "settings": {
-        "title": "分数追踪",
-        "description": "使用点击控制和视觉反馈轻松追踪分数",
-        "placeholder": "设置视图"
+      "details": {
+        "title": "游戏详情",
+        "description": "查看完整的游戏历史记录，包含您最近比赛的详细统计和分数",
+        "placeholder": "详情视图"
       }
     }
   },

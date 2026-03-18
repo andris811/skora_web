@@ -19,7 +19,7 @@ export default function Hero() {
               {t('description')}
             </p>
             <a
-              href="https://apps.apple.com/hu/app/between-days/id6757996962"
+              href="https://apps.apple.com/us/app/skora-tabletop/id6759514964"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#a855f7] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#9333ea] hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"

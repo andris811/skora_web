@@ -17,7 +17,7 @@
     "subtitle": "Erőteljes funkciók társasjáték-rajongóknak",
     "multiplayer": {
       "title": "Többjátékos támogatás",
-      "description": "Kövesd akár 8 játékos egyszerre. Tökéletes bulijátékokhoz és családi játékestekhez."
+      "description": "Akár 12 játékos egyszerre. Tökéletes bulijátékokhoz és családi játékestekhez."
     },
     "scoreHistory": {
       "title": "Pontszám előzmények",
@@ -44,20 +44,20 @@
     "title": "Működés közben",
     "subtitle": "Tapasztald meg a Skora: Társasjáték egyszerűségét és eleganciáját",
     "screenshots": {
-      "dailyCheckIn": {
-        "title": "Játék kiválasztása",
-        "description": "Válassz népszerű játékok közül, vagy hozd létre saját egyéni játékod",
-        "placeholder": "Főképernyő"
+      "mainMenu": {
+        "title": "Főmenü",
+        "description": "Navigálj a játékaid között és érj el minden funkciót az intuitív főmenüből",
+        "placeholder": "Főmenü"
       },
-      "easyOnboarding": {
-        "title": "Játékos beállítás",
-        "description": "Adj hozzá játékosokat gyorsan, egyszerű, intuitív felülettel",
-        "placeholder": "Bevezetés"
+      "game": {
+        "title": "Élő játék nézet",
+        "description": "Kövesd a pontokat valós időben teljes képernyős kártyákkal, amelyek mind a 4 játékost és jelenlegi állását mutatják",
+        "placeholder": "Játék nézet"
       },
-      "settings": {
-        "title": "Pontszám követés",
-        "description": "Kövesd a pontszámokat könnyedén érintésvezérléssel és vizuális visszajelzéssel",
-        "placeholder": "Beállítások nézet"
+      "details": {
+        "title": "Játék részletei",
+        "description": "Tekintsd át a teljes játék előzményeket részletes statisztikákkal és pontszámokkal a legutóbbi meccseidből",
+        "placeholder": "Részletek nézet"
       }
     }
   },

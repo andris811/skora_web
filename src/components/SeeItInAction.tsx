@@ -1,31 +1,30 @@
 'use client';
 
 import ScrollAnimation from './ScrollAnimation';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 export default function SeeItInAction() {
   const t = useTranslations('seeItInAction');
-  const locale = useLocale();
 
   const screenshots = [
     {
-      title: t('screenshots.dailyCheckIn.title'),
-      description: t('screenshots.dailyCheckIn.description'),
-      placeholder: t('screenshots.dailyCheckIn.placeholder'),
-      imagePath: `/images/${locale}/daily_${locale}.png`
+      title: t('screenshots.mainMenu.title'),
+      description: t('screenshots.mainMenu.description'),
+      placeholder: t('screenshots.mainMenu.placeholder'),
+      imagePath: '/images/en/main_menu.png'
     },
     {
-      title: t('screenshots.easyOnboarding.title'),
-      description: t('screenshots.easyOnboarding.description'),
-      placeholder: t('screenshots.easyOnboarding.placeholder'),
-      imagePath: `/images/${locale}/onboard_${locale}.png`
+      title: t('screenshots.game.title'),
+      description: t('screenshots.game.description'),
+      placeholder: t('screenshots.game.placeholder'),
+      imagePath: '/images/en/game.png'
     },
     {
-      title: t('screenshots.settings.title'),
-      description: t('screenshots.settings.description'),
-      placeholder: t('screenshots.settings.placeholder'),
-      imagePath: `/images/${locale}/settings_${locale}.png`
+      title: t('screenshots.details.title'),
+      description: t('screenshots.details.description'),
+      placeholder: t('screenshots.details.placeholder'),
+      imagePath: '/images/en/details.png'
     }
   ];
 

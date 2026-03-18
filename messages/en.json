@@ -17,7 +17,7 @@
     "subtitle": "Powerful features designed for board game enthusiasts",
     "multiplayer": {
       "title": "Multiplayer Support",
-      "description": "Track up to 8 players simultaneously. Perfect for party games and family game nights."
+      "description": "Track up to 12 players simultaneously. Perfect for party games and family game nights."
     },
     "scoreHistory": {
       "title": "Score History",
@@ -44,20 +44,20 @@
     "title": "See It in Action",
     "subtitle": "Experience the simplicity and elegance of Skora: Tabletop",
     "screenshots": {
-      "dailyCheckIn": {
-        "title": "Game Selection",
-        "description": "Choose from popular games or create your own custom game",
-        "placeholder": "Main Screen"
+      "mainMenu": {
+        "title": "Main Menu",
+        "description": "Navigate through your games and access all features from the intuitive main menu",
+        "placeholder": "Main Menu"
       },
-      "easyOnboarding": {
-        "title": "Player Setup",
-        "description": "Add players quickly with a simple, intuitive interface",
-        "placeholder": "Onboarding"
+      "game": {
+        "title": "Live Game View",
+        "description": "Track scores in real-time with full-screen cards showing all 4 players and their current standings",
+        "placeholder": "Game View"
       },
-      "settings": {
-        "title": "Score Tracking",
-        "description": "Track scores easily with tap controls and visual feedback",
-        "placeholder": "Settings View"
+      "details": {
+        "title": "Game Details",
+        "description": "Review complete game history with detailed statistics and scores from your recent matches",
+        "placeholder": "Details View"
       }
     }
   },

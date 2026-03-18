@@ -2,545 +2,122 @@
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 export default function TermsPrivacyPage() {
   const tApp = useTranslations();
-  const tTerms = useTranslations('terms');
-  const locale = useLocale();
+  const t = useTranslations('terms');
+
+  const renderSection = (section: any, number: string) => {
+    if (!section) return null;
+
+    return (
+      <div key={number} className="mb-8">
+        <h3 className="text-2xl font-semibold text-gray-100 mb-4">
+          {number}. {section.title}
+        </h3>
+
+        {section.content && (
+          <p className="text-gray-300 mb-4 whitespace-pre-line">{section.content}</p>
+        )}
+
+        {section.intro && (
+          <p className="text-gray-300 mb-3">{section.intro}</p>
+        )}
+
+        {section.list && (
+          <ul className="list-disc pl-6 space-y-2 mb-4">
+            {section.list.map((item: string, idx: number) => (
+              <li key={idx} className="text-gray-300">{item}</li>
+            ))}
+          </ul>
+        )}
+
+        {section.outro && (
+          <p className="text-gray-300 mb-4">{section.outro}</p>
+        )}
+
+        {/* Render subsections */}
+        {Object.keys(section).filter(key => key.includes('.')).map(subKey => {
+          const subsection = section[subKey];
+          return (
+            <div key={subKey} className="ml-6 mt-6 mb-6">
+              <h4 className="text-xl font-semibold text-gray-200 mb-3">
+                {number}.{subKey.split('.')[1]} {subsection.title}
+              </h4>
+              {subsection.content && (
+                <p className="text-gray-300 mb-3">{subsection.content}</p>
+              )}
+              {subsection.intro && (
+                <p className="text-gray-300 mb-3">{subsection.intro}</p>
+              )}
+              {subsection.list && (
+                <ul className="list-disc pl-6 space-y-2 mb-3">
+                  {subsection.list.map((item: string, idx: number) => (
+                    <li key={idx} className="text-gray-300">{item}</li>
+                  ))}
+                </ul>
+              )}
+              {subsection.outro && (
+                <p className="text-gray-300 mb-3">{subsection.outro}</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  const terms = t.raw('terms') as any;
+  const privacy = t.raw('privacy') as any;
 
   return (
-    <div className="min-h-screen bg-[#F5F1E8]">
+    <div className="min-h-screen bg-[#0f0a19]">
       <Navigation />
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-          {tApp('appName')} – {locale === 'zh' ? '使用条款与隐私政策' : locale === 'hu' ? 'Felhasználási feltételek és adatvédelmi irányelvek' : 'Terms of Use & Privacy Policy'}
+        <h1 className="text-4xl sm:text-5xl font-bold text-gray-100 mb-4">
+          Skora - {t('termsTitle')} & {t('privacyTitle')}
         </h1>
-        <p className="text-sm text-gray-500 mb-12">
-          {locale === 'zh' ? '最后更新：2026年1月' : locale === 'hu' ? 'Utolsó frissítés: 2026. január' : 'Last updated: January 2026'}
+        <p className="text-sm text-gray-400 mb-12">
+          Last Updated: {t('lastUpdated')}
         </p>
 
-        {/* Overview Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            1. {tTerms('sections.overview')}
+        {/* Terms of Service Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-[#a855f7] mb-8 pb-4 border-b border-[#2d2340]">
+            {t('termsTitle')}
           </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>
-              {tTerms('overview.para1', { appName: tApp('appName') })}
-            </p>
-            <p>
-              {tTerms('overview.para2')}
-            </p>
-          </div>
-        </section>
-
-        {/* Terms of Use Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            2. {tTerms('sections.termsOfUse')}
-          </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('termsOfUse.intendedUse.title')}
-            </h3>
-            <p>
-              {tTerms.rich('termsOfUse.intendedUse.para1', {
-                appName: tApp('appName'),
-                strong: (chunks) => <strong>{chunks}</strong>
-              })}
-            </p>
-            <p className="font-semibold">
-              {tTerms('termsOfUse.intendedUse.para2')}
-            </p>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('termsOfUse.automatedAlerts.title')}
-            </h3>
-            <p>
-              {tTerms('termsOfUse.automatedAlerts.para1')}
-            </p>
-            <p>{tTerms('termsOfUse.automatedAlerts.para2')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('termsOfUse.automatedAlerts.list') as unknown as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('termsOfUse.accuracyOfInformation.title')}
-            </h3>
-            <p>{tTerms('termsOfUse.accuracyOfInformation.para1')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('termsOfUse.accuracyOfInformation.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-            <p>
-              {tTerms('termsOfUse.accuracyOfInformation.para2')}
-            </p>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('termsOfUse.noLiability.title')}
-            </h3>
-            <p>
-              {tTerms('termsOfUse.noLiability.para1', {
-                appName: tApp('appName')
-              })}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('termsOfUse.noLiability.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('termsOfUse.userResponsibility.title')}
-            </h3>
-            <p>{tTerms('termsOfUse.userResponsibility.para1')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('termsOfUse.userResponsibility.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+          <div className="space-y-6">
+            {Object.keys(terms)
+              .filter(key => !key.includes('.'))
+              .sort((a, b) => parseInt(a) - parseInt(b))
+              .map(key => renderSection(terms[key], key))}
           </div>
         </section>
 
         {/* Privacy Policy Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            3. {tTerms('sections.privacyPolicy')}
+          <h2 className="text-3xl font-bold text-[#a855f7] mb-8 pb-4 border-b border-[#2d2340]">
+            {t('privacyTitle')}
           </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('privacyPolicy.whatDataWeCollect.title')}
-            </h3>
-            <p>
-              {tTerms('privacyPolicy.whatDataWeCollect.para1', { appName: tApp('appName') })}
-            </p>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.whatDataWeCollect.storedOnDevice.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.whatDataWeCollect.storedOnDevice.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.whatDataWeCollect.syncedToIcloud.title')}
-            </h4>
-            <p>
-              {tTerms('privacyPolicy.whatDataWeCollect.syncedToIcloud.para1')}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.whatDataWeCollect.syncedToIcloud.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.whatDataWeCollect.syncedToCloudkit.title')}
-            </h4>
-            <p>
-              {tTerms('privacyPolicy.whatDataWeCollect.syncedToCloudkit.para1')}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.whatDataWeCollect.syncedToCloudkit.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-            <p className="font-semibold">
-              {tTerms('privacyPolicy.whatDataWeCollect.syncedToCloudkit.important')}
-            </p>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('privacyPolicy.howDataIsUsed.title')}
-            </h3>
-            <p>
-              {tTerms.rich('privacyPolicy.howDataIsUsed.para1', {
-                strong: (chunks) => <strong>{chunks}</strong>
-              })}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.howDataIsUsed.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <p className="font-semibold">{tTerms('privacyPolicy.howDataIsUsed.weDoNot')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.howDataIsUsed.doNotList') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('privacyPolicy.emailSending.title')}
-            </h3>
-            <p>
-              {tTerms('privacyPolicy.emailSending.para1')}
-            </p>
-            <p>
-              {tTerms.rich('privacyPolicy.emailSending.para2', {
-                strong: (chunks) => <strong>{chunks}</strong>
-              })}
-            </p>
-            <ol className="list-decimal pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.emailSending.howItWorks') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ol>
-            <p>
-              {tTerms.rich('privacyPolicy.emailSending.para3', {
-                strong: (chunks) => <strong>{chunks}</strong>
-              })}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.emailSending.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-            <p>
-              {tTerms('privacyPolicy.emailSending.para4')}
-            </p>
-
-             <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-               {tTerms('privacyPolicy.pushNotifications.title')}
-             </h3>
-             <p>
-               {tTerms('privacyPolicy.pushNotifications.para1')}
-             </p>
-
-             <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-               {tTerms('privacyPolicy.dataStorageAndSecurity.title')}
-             </h3>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.dataStorageAndSecurity.localStorage.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataStorageAndSecurity.localStorage.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.dataStorageAndSecurity.cloudStorage.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataStorageAndSecurity.cloudStorage.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>
-                  {typeof item === 'string' && item.includes('<strong>')
-                    ? <span dangerouslySetInnerHTML={{ __html: item }} />
-                    : item}
-                </li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.dataStorageAndSecurity.backendServer.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataStorageAndSecurity.backendServer.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('privacyPolicy.dataRetention.title')}
-            </h3>
-            <p>
-              {tTerms('privacyPolicy.dataRetention.para1')}
-            </p>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.dataRetention.onYourDevice.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataRetention.onYourDevice.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>
-                  {typeof item === 'string' && item.includes('<strong>')
-                    ? <span dangerouslySetInnerHTML={{ __html: item }} />
-                    : item}
-                </li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.dataRetention.inIcloud.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataRetention.inIcloud.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>
-                  {typeof item === 'string' && item.includes('<strong>')
-                    ? <span dangerouslySetInnerHTML={{ __html: item }} />
-                    : item}
-                </li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.dataRetention.onRailwayServer.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataRetention.onRailwayServer.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.dataRetention.toPermanentlyDelete.title')}
-            </h4>
-            <ol className="list-decimal pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataRetention.toPermanentlyDelete.steps') as unknown as string[]).map((step, index) => (
-                <li key={index}>{step}</li>
-              ))}
-            </ol>
-            <p>
-              {tTerms('privacyPolicy.dataRetention.toPermanentlyDelete.para1')}
-            </p>
-            <p>
-              {tTerms.rich('privacyPolicy.dataRetention.toPermanentlyDelete.para2', {
-                strong: (chunks) => <strong>{chunks}</strong>
-              })}
-            </p>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('privacyPolicy.yourRightsAndControl.title')}
-            </h3>
-            <p>{tTerms('privacyPolicy.yourRightsAndControl.para1')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.yourRightsAndControl.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>
-                  {typeof item === 'string' && item.includes('<strong>')
-                    ? <span dangerouslySetInnerHTML={{ __html: item }} />
-                    : item}
-                </li>
-              ))}
-            </ul>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('privacyPolicy.thirdPartyServices.title')}
-            </h3>
-            <p>{tTerms('privacyPolicy.thirdPartyServices.para1', { appName: tApp('appName') })}</p>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.thirdPartyServices.icloud.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.thirdPartyServices.icloud.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.thirdPartyServices.railway.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.thirdPartyServices.railway.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
-              {tTerms('privacyPolicy.thirdPartyServices.sendgrid.title')}
-            </h4>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.thirdPartyServices.sendgrid.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-            <p>
-              {tTerms('privacyPolicy.thirdPartyServices.para2')}
-            </p>
-
-            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-              {tTerms('privacyPolicy.dataSharingAndDisclosure.title')}
-            </h3>
-            <p>{tTerms('privacyPolicy.dataSharingAndDisclosure.para1')}</p>
-            <p>{tTerms('privacyPolicy.dataSharingAndDisclosure.para2')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('privacyPolicy.dataSharingAndDisclosure.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-            <p>
-              {tTerms('privacyPolicy.dataSharingAndDisclosure.para3')}
-            </p>
-          </div>
-        </section>
-
-        {/* Children's Privacy Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            4. {tTerms('sections.childrensPrivacy')}
-          </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>
-              {tTerms('childrensPrivacy.para1', { appName: tApp('appName') })}
-            </p>
-            <p>
-              {tTerms('childrensPrivacy.para2')}
-            </p>
-          </div>
-        </section>
-
-        {/* International Users Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            5. {tTerms('sections.internationalUsers')}
-          </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>
-              {tTerms('internationalUsers.para1')}
-            </p>
-            <p>
-              {tTerms('internationalUsers.para2')}
-            </p>
-            <p className="font-semibold">
-              {tTerms('internationalUsers.chinaNote')}
-            </p>
-          </div>
-        </section>
-
-        {/* Changes to This Policy Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            6. {tTerms('sections.changesToPolicy')}
-          </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>
-              {tTerms('changesToPolicy.para1')}
-            </p>
-            <p className="font-semibold">
-              {tTerms('changesToPolicy.para2')}
-            </p>
-            <p>
-              {tTerms('changesToPolicy.para3')}
-            </p>
-          </div>
-        </section>
-
-        {/* Your Consent Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            7. {tTerms('sections.yourConsent')}
-          </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>
-              {tTerms('yourConsent.para1', { appName: tApp('appName') })}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('yourConsent.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+          <div className="space-y-6">
+            {Object.keys(privacy)
+              .filter(key => !key.includes('.'))
+              .sort((a, b) => parseInt(a) - parseInt(b))
+              .map(key => renderSection(privacy[key], key))}
           </div>
         </section>
 
         {/* Contact Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">8. {tTerms('sections.contact')}</h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>
-              {tTerms('contact.para1')}
-            </p>
-            <div className="bg-white border border-[#E5DCC8] rounded-2xl p-6 my-6">
-              <p className="font-semibold text-gray-900">
-                {tTerms('contact.support.title', { appName: tApp('appName') })}
-              </p>
-              <p>
-                {tTerms('contact.support.email')}
-                <a
-                  href="mailto:avdev2024@gmail.com"
-                  className="text-[#4A7BA7] hover:text-[#3d6a8f] underline"
-                >
-                  avdev2024@gmail.com
-                </a>
-              </p>
-            </div>
-            <p>
-              {tTerms('contact.para2')}
-            </p>
-            <ol className="list-decimal pl-6 space-y-2">
-              {(tTerms.raw('contact.steps') as unknown as string[]).map((step, index) => (
-                <li key={index}>{step}</li>
-              ))}
-            </ol>
-            <p>
-              {tTerms('contact.para3')}
-            </p>
-          </div>
-        </section>
-
-        {/* Legal Basis for Processing (GDPR) Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            9. {tTerms('sections.gdpr')}
-          </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>
-              {tTerms('gdpr.para1')}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('gdpr.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>
-                  {typeof item === 'string' && item.includes('<strong>')
-                    ? <span dangerouslySetInnerHTML={{ __html: item }} />
-                    : item}
-                </li>
-              ))}
-            </ul>
-            <p>{tTerms('gdpr.para2')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('gdpr.rights') as unknown as string[]).map((right, index) => (
-                <li key={index}>{right}</li>
-              ))}
-            </ul>
-            <p>
-              {tTerms('gdpr.para3')}
-              <a
-                href="mailto:avdev2024@gmail.com"
-                className="text-[#4A7BA7] hover:text-[#3d6a8f] underline"
-              >
-                avdev2024@gmail.com
-              </a>
-              .
-            </p>
-          </div>
-        </section>
-
-        {/* California Privacy Rights (CCPA) Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A7BA7] mb-6">
-            10. {tTerms('sections.ccpa')}
-          </h2>
-          <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-            <p>{tTerms('ccpa.para1')}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              {(tTerms.raw('ccpa.list') as unknown as string[]).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-            <p>
-              {tTerms('ccpa.para3')}
-              <a
-                href="mailto:avdev2024@gmail.com"
-                className="text-[#4A7BA7] hover:text-[#3d6a8f] underline"
-              >
-                avdev2024@gmail.com
-              </a>
-              .
-            </p>
-          </div>
-        </section>
-
-        {/* Final Note */}
-        <section className="bg-white border border-[#E5DCC8] rounded-2xl p-8 mb-12">
-          <p className="text-gray-700 text-center italic">
-            {tTerms('finalNote', { appName: tApp('appName') })}
+        <section className="bg-[#1a1425] border border-[#2d2340] rounded-2xl p-8 mb-12">
+          <p className="text-gray-300 text-center">
+            For questions, please contact:{' '}
+            <a
+              href="mailto:avdev2024@gmail.com"
+              className="text-[#a855f7] hover:text-[#9333ea] underline font-semibold"
+            >
+              avdev2024@gmail.com
+            </a>
           </p>
         </section>
       </main>
