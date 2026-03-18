@@ -1,14 +1,13 @@
-# Between Days
+# Skora: Tabletop
 
-**Between Days** is an iOS app designed for people who live alone to provide peace of mind through daily check-ins.
+**Skora: Tabletop** is an iOS app designed to help board game enthusiasts track scores during game nights.
 
 ## About
 
-Between Days helps friends and family monitor each other's well-being through simple daily check-ins. If someone misses check-ins for three consecutive days, their emergency contact is automatically notified.
+Skora: Tabletop is the ultimate board game score keeper that helps you track scores for all your favorite board games. With support for up to 8 players, score history tracking, and custom game creation, it's perfect for family game nights and gatherings with friends. The app works completely offline and saves all your data locally.
 
-This repository contains the landing page and legal documentation (Terms of Service and Privacy Policy) for the Between Days app.
+This repository contains the landing page and legal documentation (Terms of Service and Privacy Policy) for the Skora: Tabletop app.
 
 ---
 
-© 2026 Between Days • Made with care by [AVDev](https://andris811.github.io/avdev/)
-# skora_web
+© 2026 Skora: Tabletop • Made with care by [AVDev](https://andris811.github.io/avdev/)
